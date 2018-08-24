@@ -1,1 +1,1 @@
-# Implementação de Melhorias no Software JabRef
+# Implementação de uma Aplicação para Classificação de Macrófitas
