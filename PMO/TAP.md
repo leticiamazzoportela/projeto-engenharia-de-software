@@ -1,11 +1,12 @@
 # Termo de Abertura do Projeto
 
-## NOME DO PROJETO
+## Implementação de Melhorias no Software JabRef
 
 ### Controle de Versões
-| Versão | Data | Autor | Notas da Revisão
+| Versão | Data | Autores | Notas da Revisão
 |:--:|:--:|:--:|:--:|
-|  |  |  |  |
+| 0.0.1 | 21/08/2018 | Cláudia, Igor, Jonas, Letícia | Estrutura Inicial TAP |
+| 0.0.2 | 24/08/2018 | Cláudia, Igor, Jonas, Letícia | Definido Título do Projeto |
 
 ## Sumário
 1. [Propósito](#prop)
