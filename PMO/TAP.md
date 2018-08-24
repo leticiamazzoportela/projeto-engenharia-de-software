@@ -1,6 +1,6 @@
 # Termo de Abertura do Projeto
 
-## Implementação de um Software para Classificação de Macrófitas
+## Implementação de uma Aplicação para Classificação de Macrófitas
 
 ### Controle de Versões
 | Versão | Data | Autores | Notas da Revisão
@@ -54,7 +54,7 @@ A definir.
 
 ## Partes Interessadas do Projeto
 | Cliente | Instituição
-|:--:|:--:|:--:|
+|:--:|:--:|
 | Tania | UEM |
 | Karina | UEM |
 | Dayani | UEM |
