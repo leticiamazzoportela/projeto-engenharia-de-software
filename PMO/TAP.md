@@ -12,16 +12,12 @@
 ## Sumário
 1. [Objetivo do Documento](#od)
 2. [Propósito](#prop)
-3. [Descrição do Projeto](#desc)
-4. [Objetivos do Projeto e Critérios de Sucesso](#obj)
-5. [Requisitos do Projeto](#req)
-6. [Escopo Preliminar](#escopo)
-7. [Principais Riscos do Projeto](#riscos)
-8. [Principais Entregas](#entregas)
-9. [Cronograma de Marcos](#marcos)
-10. [Partes Interessadas do Projeto](#pip)
-11. [Requisitos para Aprovação do Projeto](#aprov)
-12. [Gerente do Projeto](#ger)
+3. [Descrição do Projeto](#desc)<!-- 4. [Objetivos do Projeto e Critérios de Sucesso](#obj) -->
+4. [Requisitos do Projeto](#req)<!-- 6. [Escopo Preliminar](#escopo) --><!-- 7. [Principais Riscos do Projeto](#riscos) --><!-- 8. [Principais Entregas](#entregas) -->
+5. [Cronograma de Marcos](#marcos)
+6. [Partes Interessadas do Projeto](#pip)
+7. [Requisitos para Aprovação do Projeto](#aprov)
+8. [Gerente do Projeto](#ger)
 
 <div id='od' />
 
@@ -34,7 +30,7 @@ Autorizar o início do projeto, atribuir principais responsáveis e documentar r
 Com o intuito de atender às necessidades de um grupo de pesquisa da Universidade Estadual de Maringá (UEM), foi solicitada a implementação deste projeto, cujo objetivo é o de desenvolver uma aplicação para otimizar o processo de classificação de macrófitas.
 
 <div id='desc' />
-
+ 
 ## Descrição do Projeto
 O sistema em questão é aplicado à pesquisas em Ecologia de ambientes aquáticos continentais, as quais têm o objetivo de investigar padrões
 biogeográficos de macrófitas aquáticas (plantas que vivem permanentemente ou
@@ -56,17 +52,40 @@ informações de registros ocorrências dessas espécies de macrófitas no conti
 corrigindo   erros   e   indicando   padrões   e   tendências   considerando   as   bacias
 hidrográficas Sul-Americanas. 
 
-<div id='obj' />
+<!-- <div id='obj' />
 
 ## Objetivos do Projeto (SMART) e Critérios de Sucesso
-A definir.
+A definir. -->
 
 <div id='req' />
 
 ## Requisitos do Projeto
-A definir.
+- O sistema deve validar o nome das espécies da lista de entrada (1900
+espécies) com base nas informações disponibilizadas 
+em online databases
+ (Flora
+do Brasil e PlantList), fornecendo o nome atualmente aceito e autor, bem como a
+lista de sinonímias para cada nome válido ou aceito;
 
-<div id='escopo' />
+- Para   cada   espécie   válida   o   sistema   deve   buscar   e   extrair   das  
+online
+databases
+ os seguintes informações: ordem, classe, família, tribo, forma de vida,
+substrato, origem, endemismo e distribuição geográfica.
+
+- O sistema deve buscar os dados de ocorrência de cada espécie (para o nome
+aceito e suas sinonímias) nas plataformas Specieslink e GBIF;  
+
+- O sistema deve executar um processo de triagem dos dados de ocorrências
+disponibilizados pelo GBIF e Specieslink de modo a corrigir nomes duplicados,
+erros de digitação, coordenadas ausentes, registros de grupos não plantas (ex.
+peixes, insetos, répteis, etc), entre outras inconsistências.
+
+- O sistema deverá fornecer gráficos/tabelas/mapas com as principais tendências dos dados   entre   as   14   grandes   bacias   Sul-Americanas   e   do
+continente como um todo, como por exemplo, número de espécies de macrófitas
+por bacia, família mais especiosa, família mais amplamente distribuída, etc. 
+
+<!-- <div id='escopo' />
 
 ## Escopo Preliminar
 A definir.
@@ -76,10 +95,11 @@ A definir.
 ## Principais Riscos do Projeto
 A definir.
 
-<div id="entregas" />
+<div id="entregas" /> 
 
 ## Principais Entregas
-    Detalhes a definir
+Detalhes a definir
+-->
 
 <div id="marcos" />
 
@@ -104,4 +124,9 @@ A definir.
 
 <div id="ger" />
 
-## Gerente do Projeto
+## Gerentes do Projeto
+
+- Igor Neves Faustino
+- Claudia L. P. Sampedro
+- Leticia Mazzo Portela
+- Jonas Felipe Alves
