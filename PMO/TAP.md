@@ -127,6 +127,6 @@ Detalhes a definir
 ## Gerentes do Projeto
 
 - Igor Neves Faustino
-- Claudia L. P. Sampedro
-- Leticia Mazzo Portela
+- Cláudia L. P. Sampedro
+- Letícia Mazzo Portela
 - Jonas Felipe Alves
