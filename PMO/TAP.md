@@ -8,7 +8,7 @@
 | 0.0.1 | 21/08/2018 | Cláudia, Igor, Jonas, Letícia | Estrutura Inicial TAP |
 | 0.0.2 | 24/08/2018 | Cláudia, Igor, Jonas, Letícia | Adicionados mais detalhes do projeto |
 | 0.0.3 | 05/09/2018 | Cláudia, Igor, Jonas, Letícia | Adicionado requisitos do projeto |
-
+| 0.0.4 | 13/09/2018 | Cláudia, Igor, Jonas, Letícia | Adicionado requisitos para aprovação do projeto |
 ## Sumário
 1. [Objetivo do Documento](#od)
 2. [Propósito](#prop)
@@ -21,17 +21,17 @@
 
 <div id='od' />
 
-## Objetivo do Documento
+## 1. Objetivo do Documento
 Autorizar o início do projeto, atribuir principais responsáveis e documentar requisitos iniciais, principais entregas, premissas e restrições.
 
 <div id='prop' />
 
-## Propósito
+## 2. Propósito
 Com o intuito de atender às necessidades de um grupo de pesquisa da Universidade Estadual de Maringá (UEM), foi solicitada a implementação deste projeto, cujo objetivo é o de desenvolver uma aplicação para otimizar o processo de classificação de macrófitas.
 
 <div id='desc' />
  
-## Descrição do Projeto
+## 3. Descrição do Projeto
 O sistema em questão é aplicado à pesquisas em Ecologia de ambientes aquáticos continentais, as quais têm o objetivo de investigar padrões
 biogeográficos de macrófitas aquáticas (plantas que vivem permanentemente ou
 por alguns períodos do ano, com a parte fotossintetizante em contato com a água)
@@ -59,7 +59,7 @@ A definir. -->
 
 <div id='req' />
 
-## Requisitos do Projeto
+## 4. Requisitos do Projeto
 - O sistema deve validar o nome das espécies da lista de entrada (1900
 espécies) com base nas informações disponibilizadas 
 em online databases
@@ -103,7 +103,7 @@ Detalhes a definir
 
 <div id="marcos" />
 
-## Cronograma de Marcos
+## 5. Cronograma de Marcos
 + **Entrega 1:** 14/09/2018;
 + **Entrega 2:** 28/09/2018;
 + **Entrega 3:** 19/10/2018;
@@ -111,7 +111,7 @@ Detalhes a definir
 
 <div id="pip" />
 
-## Partes Interessadas do Projeto
+## 6. Partes Interessadas do Projeto
 | Cliente | Instituição
 |:--:|:--:|
 | Tania | UEM |
@@ -120,11 +120,12 @@ Detalhes a definir
 
 <div id="aprov" />
 
-## Requisitos para Aprovação do Projeto
+## 7. Requisitos para Aprovação do Projeto
+Solicitar aprovação do cliente em relação às atividades propostas em cada uma das 4 verificações.
 
 <div id="ger" />
 
-## Gerentes do Projeto
+## 8. Gerentes do Projeto
 
 - Igor Neves Faustino
 - Cláudia L. P. Sampedro
