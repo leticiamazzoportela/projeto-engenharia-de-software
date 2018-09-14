@@ -28,3 +28,5 @@ As atividades foram lançadas como Issues no GitHub e estão disponíveis em: <h
 <div id='crono' />
  
 ## 3. Cronograma e Responsabilidades
+
+O cronograma e as responsabilidades deste projeto se encontram no [PDF]() 
