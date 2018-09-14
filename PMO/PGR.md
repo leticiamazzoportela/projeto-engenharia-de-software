@@ -31,7 +31,9 @@ Ao final de cada entrega, a branch de desenvolvimento será integrada à branch 
 Como forma de manter atualizado o status das tarefas, será utilizada a ferramenta ZenHub.
 Esta é responsável por transformar as issues do GitHub em tarefas de desenvolvimento, sendo possível para os desenvolvedores controlar o andamento do cronograma.
 
-Segue o link com instruções para a utilização da ferramenta: 
+Segue o link com instruções para a utilização da ferramenta: https://www.zenhub.com/
+
+Para utilizá-la, basta instalar a extensão no navegador, e estar como colaborador do repositório.
 
 ## 3. Atualização e Manutenção dos Requisitos
 
