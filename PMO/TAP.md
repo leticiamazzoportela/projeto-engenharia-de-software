@@ -104,8 +104,8 @@ Detalhes a definir
 <div id="marcos" />
 
 ## 5. Cronograma de Marcos
-+ **Entrega 1:** 14/09/2018;
-+ **Entrega 2:** 28/09/2018;
++ **Entrega 1:** 21/09/2018;
++ **Entrega 2:** 05/10/2018;
 + **Entrega 3:** 19/10/2018;
 + **Entrega 4:** 06/12/2018.
 
