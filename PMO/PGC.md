@@ -23,7 +23,7 @@ Além de servir como guia para a equipe durante todo o projeto.
 <div id='atv' />
 
 ## 2. Atividades com base na EAP e Sequência e Duração das Atividades 
-    As atividades foram lançadas como Issues no GitHub e estão disponíveis em: <https://github.com/leticiamazzoportela/projeto-engenharia-de-software/issues>
+As atividades foram lançadas como Issues no GitHub e estão disponíveis em: <https://github.com/leticiamazzoportela/projeto-engenharia-de-software/issues>
 
 <div id='crono' />
  
