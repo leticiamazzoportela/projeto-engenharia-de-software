@@ -9,9 +9,10 @@
 ## Sumário
 
 1. [Uso do Repositório](#desc)
-2. [Atualização e Manutenção dos Requisitos](#req)
-3. [Declaração de Escopo](#escopo)
-4. [Estrutura Analítica do Projeto (EAP)](#eap)
+2. [Ferramenta para Manutenção das Tarefas](#zenhub)
+3. [Atualização e Manutenção dos Requisitos](#req)
+4. [Declaração de Escopo](#escopo)
+5. [Estrutura Analítica do Projeto (EAP)](#eap)
 
 <div id='desc' />
 
@@ -23,7 +24,16 @@ Ao final de cada entrega, a branch de desenvolvimento será integrada à branch 
 
 <div id='req' />
 
-## 2. Atualização e Manutenção dos Requisitos
+<div id='zenhub' />
+
+## 2. Ferramenta para Manutenção das Tarefas
+
+Como forma de manter atualizado o status das tarefas, será utilizada a ferramenta ZenHub.
+Esta é responsável por transformar as issues do GitHub em tarefas de desenvolvimento, sendo possível para os desenvolvedores controlar o andamento do cronograma.
+
+Segue o link com instruções para a utilização da ferramenta: 
+
+## 3. Atualização e Manutenção dos Requisitos
 
 Conforme os clientes sentirem a necessidade de novos requisitos, um novo termo será feito com estes.
 Cabe aos clientes definirem a prioridade dos novos requisitos com base nos antigos, assim repassar para o time de desenvolvimento.
@@ -32,7 +42,7 @@ Com base na prioridade da entrega de funcionalidades, o time definirá quais ser
 
 <div id='escopo' />
  
-## 3. Declaração de Escopo
+## 4. Declaração de Escopo
 
 - **Descrição do Escopo**: O produto pretendido é um sistema capaz i) de validar os nomes das espécies de macrófitas em online databases, trazendo também informações acerca da taxonomia/ecologia/biologia referentes aos nomes aceitos, ii) de congregar informações de registros ocorrências dessas espécies de macrófitas no continente, corrigindo erros e indicando padrões e tendências considerando as bacias hidrográficas Sul-Americanas.
 - **Critérios de Aceitação**:
@@ -43,6 +53,6 @@ Com base na prioridade da entrega de funcionalidades, o time definirá quais ser
 
 <div id='eap' />
 
-## 4. Estrutura Analítica do Projeto (EAP)
+## 5. Estrutura Analítica do Projeto (EAP)
 
 <img src="./assets/EAP.png"/>
