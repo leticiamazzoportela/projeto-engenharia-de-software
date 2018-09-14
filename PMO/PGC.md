@@ -29,4 +29,4 @@ As atividades foram lançadas como Issues no GitHub e estão disponíveis em: <h
  
 ## 3. Cronograma e Responsabilidades
 
-O cronograma e as responsabilidades deste projeto se encontram no [PDF]() 
+O cronograma e as responsabilidades deste projeto se encontram no [PDF](https://github.com/leticiamazzoportela/projeto-engenharia-de-software/blob/master/PMO/Gantt.pdf). 
