@@ -112,11 +112,16 @@ Detalhes a definir
 <div id="pip" />
 
 ## 6. Partes Interessadas do Projeto
-| Cliente | Instituição
-|:--:|:--:|
-| Tania | UEM |
-| Karina | UEM |
-| Dayani | UEM |
+| Nome | Instituição | Papel
+|:--:|:--:|:--:
+| Dayani | UEM | Cliente
+| Karina | UEM | Cliente
+| Tania | UEM | Cliente
+| Cláudia | UTFPR | Equipe de projeto
+| Igor | UTFPR | Equipe de projeto
+| Jonas | UTFPR | Equipe de projeto
+| Letícia | UTFPR | Equipe de projeto
+| Reginaldo | UTFPR | Equipe de projeto
 
 <div id="aprov" />
 
