@@ -21,7 +21,6 @@ for i in range(0, len(data)):
             else:
                 nomes['nome_correto'] = dado.get('result')[0]['acceptednameusage']
         lista_nomes.append(nomes.copy())
-        print("list \n",lista_nomes)
     else:
         print(r.status_code)
 
