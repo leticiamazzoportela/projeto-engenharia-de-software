@@ -54,7 +54,7 @@ def crawl_all_species(species, name_list, not_found):
         scrap_info(page.text, specie, name_list, not_found)
 
 
-def run():
+def getNames():
     species = [
         "Hygrophila guianensis",
         "Hygrophila helodes",
@@ -83,4 +83,5 @@ def run():
         json.dump(not_found, list_file, indent=2)
 
 
-run()
+if __name__ == "__main__":
+    getNames()
