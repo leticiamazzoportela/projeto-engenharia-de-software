@@ -6,10 +6,10 @@
 #
 beautifulsoup4==4.6.3     # via bs4
 bs4==0.0.1
-get==1.0.3                # via request
-post==1.0.2               # via request
-public==1.0.3             # via query-string
-query-string==1.0.2       # via get
-request==1.0.2
+certifi==2018.8.24        # via requests
+chardet==3.0.4            # via requests
+idna==2.7                 # via requests
+lxml==4.2.5
+requests==2.19.1
 selenium==3.14.1
-urllib3==1.23             # via selenium
+urllib3==1.23             # via requests, selenium
