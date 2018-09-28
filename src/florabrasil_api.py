@@ -15,7 +15,6 @@ def getNames():
 
     for i in range(0, len(data)):
         nomes.clear()
-        print(i)
         r = requests.get('http://servicos.jbrj.gov.br/flora/taxon/'+data[i])
         dado = json.loads(r.content)
         if(r.status_code == 200):
