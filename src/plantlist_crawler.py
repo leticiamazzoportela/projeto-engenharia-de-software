@@ -1,8 +1,7 @@
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import requests
+import json
+import os
 
 BASE_URL = "http://www.theplantlist.org/"
 
@@ -54,7 +53,7 @@ def crawl_all_species(species, name_list, not_found):
         scrap_info(page.text, specie, name_list, not_found)
 
 
-def main():
+def run():
     species = [
         "Hygrophila guianensis",
         "Hygrophila helodes",
@@ -75,8 +74,13 @@ def main():
     name_list = []
     not_found = []
     crawl_all_species(species, name_list, not_found)
-    print(name_list)
-    print("---------------\n", not_found)
+
+    dirname = os.path.dirname(__file__)
+    with open(os.path.join(dirname, 'data/plantlist_data.json'), 'w') as list_file:
+        json.dump(name_list, list_file)
+
+    with open(os.path.join(dirname, 'data/notfound_plantlist.json'), 'w') as list_file:
+        json.dump(not_found, list_file)
 
 
-main()
+run()
