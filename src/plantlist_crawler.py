@@ -4,25 +4,39 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 
-BASE_URL = "http://www.theplantlist.org/tpl1.1/search"
+BASE_URL = "http://www.theplantlist.org/"
 
 
-def scrap_results(section_html):
-    pass
+def scrap_results(section_html, specie, name_list, not_found):
+    item = section_html.find("td")
+    if item:
+        link = item.find("a")['href']
+        page = requests.get(BASE_URL + link)
+        soup = BeautifulSoup(page.text, "lxml")
+        section = soup.find("section")
+        scrap_synonym(section, name_list)
+    else:
+        not_found.append(specie)
 
 
-def scrap_synonym(section_html):
+def scrap_synonym(section_html, name_list):
     title = section_html.find("h1")
     subtitle = title.select_one(".subtitle")
     firstLink = subtitle.find("a")
     if(firstLink.text == "accepted"):
-        print(title.select_one(".name").text)
+        name_list.append({
+            "nome_passado": title.select_one(".name").text,
+            "nome_correto": title.select_one(".name").text,
+        })
     else:
         accepted_name = firstLink.findNext('a')
-        print(title.select_one(".name").text + ">>" + accepted_name.text)
+        name_list.append({
+            "nome_passado": title.select_one(".name").text,
+            "nome_correto": accepted_name.text,
+        })
 
 
-def scrap_info(source_html):
+def scrap_info(source_html, specie, name_list, not_found):
     soup = BeautifulSoup(source_html, "lxml")
     section = soup.find("section")
 
@@ -30,14 +44,14 @@ def scrap_info(source_html):
     header2 = section.find("h2")
     isResult = False
     if(header2 and header2.text == "Results"):
-        return scrap_results(section)
-    return scrap_synonym(section)
+        return scrap_results(section, specie, name_list, not_found)
+    return scrap_synonym(section, name_list)
 
 
-def crawl_all_species(species):
+def crawl_all_species(species, name_list, not_found):
     for specie in species:
-        page = requests.get(BASE_URL + "?q=" + specie)
-        scrap_info(page.text)
+        page = requests.get(BASE_URL + "tpl1.1/search?q=" + specie)
+        scrap_info(page.text, specie, name_list, not_found)
 
 
 def main():
@@ -58,7 +72,11 @@ def main():
         "Echinodorus bolivianus",
         "Echinodorus cordifolius",
     ]
-    crawl_all_species(species)
+    name_list = []
+    not_found = []
+    crawl_all_species(species, name_list, not_found)
+    print(name_list)
+    print("---------------\n", not_found)
 
 
 main()
