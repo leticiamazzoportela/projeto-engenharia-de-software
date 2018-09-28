@@ -2,42 +2,45 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import requests
 
-url = "http://www.theplantlist.org/"
-
-
-def get_driver():
-
-    # don't load images
-    firefox_profile = webdriver.FirefoxProfile()
-    firefox_profile.set_preference('permissions.default.image', 2)
-    firefox_profile.set_preference(
-        'dom.ipc.plugins.enabled.libflashplayer.so', 'false')
-
-    # init the browser
-    driver = webdriver.Firefox(firefox_profile=firefox_profile)
-
-    driver.get(url)
-
-    return driver
+BASE_URL = "http://www.theplantlist.org/tpl1.1/search"
 
 
-def crawl_all_species(driver, species):
-    global url
-    last_url = url
+def scrap_results(section_html):
+    pass
+
+
+def scrap_synonym(section_html):
+    title = section_html.find("h1")
+    subtitle = title.select_one(".subtitle")
+    firstLink = subtitle.find("a")
+    if(firstLink.text == "accepted"):
+        print(title.select_one(".name").text)
+    else:
+        accepted_name = firstLink.findNext('a')
+        print(title.select_one(".name").text + ">>" + accepted_name.text)
+
+
+def scrap_info(source_html):
+    soup = BeautifulSoup(source_html, "lxml")
+    section = soup.find("section")
+
+    # Test if has more than one plant with the name
+    header2 = section.find("h2")
+    isResult = False
+    if(header2 and header2.text == "Results"):
+        return scrap_results(section)
+    return scrap_synonym(section)
+
+
+def crawl_all_species(species):
     for specie in species:
-        print(driver.current_url)
-        text_field = driver.find_element_by_id('q')
-        text_field.send_keys(specie)
-        text_field.submit()
-
-        WebDriverWait(driver, 15).until(
-            lambda driver: driver.current_url != last_url)
-        last_url = driver.current_url
+        page = requests.get(BASE_URL + "?q=" + specie)
+        scrap_info(page.text)
 
 
 def main():
-    driver = get_driver()
     species = [
         "Hygrophila guianensis",
         "Hygrophila helodes",
@@ -55,8 +58,7 @@ def main():
         "Echinodorus bolivianus",
         "Echinodorus cordifolius",
     ]
-    crawl_all_species(driver, species)
-    sleep(1)
+    crawl_all_species(species)
 
 
 main()
