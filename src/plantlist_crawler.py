@@ -3,6 +3,7 @@ import requests
 import json
 import os
 
+DIRNAME = os.path.dirname(__file__)
 BASE_URL = "http://www.theplantlist.org/"
 
 
@@ -75,12 +76,11 @@ def run():
     not_found = []
     crawl_all_species(species, name_list, not_found)
 
-    dirname = os.path.dirname(__file__)
-    with open(os.path.join(dirname, 'data/plantlist_data.json'), 'w') as list_file:
-        json.dump(name_list, list_file)
+    with open(os.path.join(DIRNAME, 'data/plantlist_data.json'), 'w') as list_file:
+        json.dump(name_list, list_file, indent=2)
 
-    with open(os.path.join(dirname, 'data/notfound_plantlist.json'), 'w') as list_file:
-        json.dump(not_found, list_file)
+    with open(os.path.join(DIRNAME, 'data/plantlist_NOTFOUND.json'), 'w') as list_file:
+        json.dump(not_found, list_file, indent=2)
 
 
 run()
