@@ -10,10 +10,12 @@ def getNames():
     lista_nomes = []
     nao_encontrados = []
 
-    with open(os.path.join(DIRNAME, 'macrofitas.json')) as f:
+    with open(os.path.join(DIRNAME, 'data/macrofitas.json')) as f:
         data = json.load(f)
 
     for i in range(0, len(data)):
+        nomes.clear()
+        print(i)
         r = requests.get('http://servicos.jbrj.gov.br/flora/taxon/'+data[i])
         dado = json.loads(r.content)
         if(r.status_code == 200):
@@ -26,7 +28,7 @@ def getNames():
                 else:
                     nomes['nome_correto'] = dado.get(
                         'result')[0]['acceptednameusage']
-            lista_nomes.append(nomes.copy())
+                lista_nomes.append(nomes.copy())
         else:
             print(r.status_code)
 
