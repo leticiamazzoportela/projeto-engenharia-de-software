@@ -1,58 +1,330 @@
 [
   {
-    "nome_passado": "Hygrophila guianensis Nees",
-    "nome_correto": "Hygrophila costata Nees"
-  },
-  {
     "nome_passado": "Hygrophila helodes Nees",
     "nome_correto": "Hygrophila costata Nees"
   },
   {
-    "nome_passado": "Justicia comata (L.) Lam.",
-    "nome_correto": "Justicia comata (L.) Lam."
-  },
-  {
-    "nome_passado": "Justicia aequilabris (Nees) Lindau",
-    "nome_correto": "Justicia aequilabris (Nees) Lindau"
-  },
-  {
-    "nome_passado": "Justicia laevilinguis (Nees) Lindau",
-    "nome_correto": "Justicia laevilinguis (Nees) Lindau"
-  },
-  {
-    "nome_passado": "Nelsonia brunelloides (Lam.) Kuntze",
-    "nome_correto": "Nelsonia canescens (Lam.) Spreng."
-  },
-  {
-    "nome_passado": "Ruellia bahiensis (Nees) Morong",
-    "nome_correto": "Ruellia bahiensis (Nees) Morong"
-  },
-  {
-    "nome_passado": "Ruellia paniculata Wall. ex Nees",
-    "nome_correto": "Barleria tomentosa Roth"
-  },
-  {
-    "nome_passado": "Sesuvium portulacastrum (L.) L.",
-    "nome_correto": "Sesuvium portulacastrum (L.) L."
-  },
-  {
-    "nome_passado": "Echinodorus andrieuxii (Hook. & Arn.) Small",
-    "nome_correto": "Echinodorus subalatus (Mart. ex Schult.f.) Griseb."
-  },
-  {
-    "nome_passado": "Echinodorus argentinensis Rataj",
-    "nome_correto": "Echinodorus grandiflorus (Cham. & Schltdl.) Micheli"
-  },
-  {
-    "nome_passado": "Echinodorus aschersonianus Graebn.",
-    "nome_correto": "Echinodorus uruguayensis Arechav."
-  },
-  {
-    "nome_passado": "Echinodorus bolivianus (Rusby) Holm-Niels.",
-    "nome_correto": "Helanthium bolivianum (Rusby) Lehtonen & Myllys"
-  },
-  {
     "nome_passado": "Echinodorus cordifolius (L.) Griseb.",
     "nome_correto": "Echinodorus cordifolius (L.) Griseb."
+  },
+  {
+    "nome_passado": "Echinodorus ranunculoides (L.) Engelm.",
+    "nome_correto": "Baldellia ranunculoides (L.) Parl."
+  },
+  {
+    "nome_passado": "Atriplex montevidensis Spreng.",
+    "nome_correto": "Atriplex montevidensis Spreng."
+  },
+  {
+    "nome_passado": "Atriplex undulata (Moq.) D.Dietr.",
+    "nome_correto": "Atriplex undulata (Moq.) D.Dietr."
+  },
+  {
+    "nome_passado": "Pfaffia iresinoides (Kunth) Spreng.",
+    "nome_correto": "Pfaffia iresinoides (Kunth) Spreng."
+  },
+  {
+    "nome_passado": "Salicornia ambigua Michx.",
+    "nome_correto": "Sarcocornia perennis (Mill.) A.J.Scott"
+  },
+  {
+    "nome_passado": "Schinus areira L.",
+    "nome_correto": "Schinus areira L."
+  },
+  {
+    "nome_passado": "Alocasia acuminata Schott",
+    "nome_correto": "Alocasia acuminata Schott"
+  },
+  {
+    "nome_passado": "Colocasia esculenta (L.) Schott",
+    "nome_correto": "Colocasia esculenta (L.) Schott"
+  },
+  {
+    "nome_passado": "Pistia stratiotes L.",
+    "nome_correto": "Pistia stratiotes L."
+  },
+  {
+    "nome_passado": "Xanthosoma acutum E.G.Gonç.",
+    "nome_correto": "Xanthosoma acutum E.G.Gonç."
+  },
+  {
+    "nome_passado": "Zantedeschia aethiopica (L.) Spreng.",
+    "nome_correto": "Zantedeschia aethiopica (L.) Spreng."
+  },
+  {
+    "nome_passado": "Ambrosia acanthicarpa Hook.",
+    "nome_correto": "Ambrosia acanthicarpa Hook."
+  },
+  {
+    "nome_passado": "Baccharidastrum argentum (Less.) Cabrera",
+    "nome_correto": "Baccharidastrum argentum (Less.) Cabrera"
+  },
+  {
+    "nome_passado": "Clibadium acuminatum Benth.",
+    "nome_correto": "Clibadium acuminatum Benth."
+  },
+  {
+    "nome_passado": "Enydra sessilis (Sw.) DC.",
+    "nome_correto": "Enydra sessilis (Sw.) DC."
+  },
+  {
+    "nome_passado": "Enydra anagallis Gardner",
+    "nome_correto": "Enydra anagallis Gardner"
+  },
+  {
+    "nome_passado": "Erechtites hieracifolia (L.) Raf.",
+    "nome_correto": "Erechtites hieracifolia (L.) Raf."
+  },
+  {
+    "nome_passado": "Erigeron maximus (D.Don) Otto ex DC.",
+    "nome_correto": "Leptostelma maxima D.Don"
+  },
+  {
+    "nome_passado": "Eupatorium bupleurifolium DC.",
+    "nome_correto": "Campovassouria cruciata (Vell.) R.M.King & H.Rob."
+  },
+  {
+    "nome_passado": "Eupatorium subhastatum Hook. & Arn.",
+    "nome_correto": "Badilloa steetzii (B.L.Rob.) R.M.King & H.Rob."
+  },
+  {
+    "nome_passado": "Eupatorium tremulum Hook. & Arn.",
+    "nome_correto": "Raulinoreitzia tremula (Hook. & Arn.) R.M.King & H.Rob."
+  },
+  {
+    "nome_passado": "Eupatorium adspersum Klatt",
+    "nome_correto": "Eupatorium adspersum Klatt"
+  },
+  {
+    "nome_passado": "Gnaphalium spicatum Lam.",
+    "nome_correto": "Gnaphalium coarctatum Willd."
+  },
+  {
+    "nome_passado": "Senecio mattfeldianus Cabrera",
+    "nome_correto": "Senecio mattfeldianus Cabrera"
+  },
+  {
+    "nome_passado": "Impatiens abbatis Hook. f.",
+    "nome_correto": "Impatiens abbatis Hook. f."
+  },
+  {
+    "nome_passado": "Nasturtium officinale R.Br.",
+    "nome_correto": "Nasturtium officinale R.Br."
+  },
+  {
+    "nome_passado": "Siphocampylus actinothrix E.Wimm.",
+    "nome_correto": "Siphocampylus actinothrix E.Wimm."
+  },
+  {
+    "nome_passado": "Canna bangii Kraenzl.",
+    "nome_correto": "Canna bangii Kraenzl."
+  },
+  {
+    "nome_passado": "Aniseia argentina (N.E. Br.) O'Donell",
+    "nome_correto": "Aniseia argentina (N.E. Br.) O'Donell"
+  },
+  {
+    "nome_passado": "Evolvulus alopecuroides Mart.",
+    "nome_correto": "Evolvulus alopecuroides Mart."
+  },
+  {
+    "nome_passado": "Ipomoea abyssinica (Choisy) Schweinf.",
+    "nome_correto": "Ipomoea abyssinica (Choisy) Schweinf."
+  },
+  {
+    "nome_passado": "Costus acanthocephalus K.Schum.",
+    "nome_correto": "Costus acanthocephalus K.Schum."
+  },
+  {
+    "nome_passado": "Elaterium amazonicum Mart. ex Cogn.",
+    "nome_correto": "Rytidostylis amazonica (Mart. ex Cogn.) Spruce ex Kuntze"
+  },
+  {
+    "nome_passado": "Eleocharis equisetoides (Elliott) Torr.",
+    "nome_correto": "Eleocharis equisetoides (Elliott) Torr."
+  },
+  {
+    "nome_passado": "Eleocharis abnorma Y.D.Chen",
+    "nome_correto": "Eleocharis abnorma Y.D.Chen"
+  },
+  {
+    "nome_passado": "Scirpus americanus Pers.",
+    "nome_correto": "Schoenoplectus americanus (Pers.) Volkart"
+  },
+  {
+    "nome_passado": "Scirpus cubensis Poepp. & Kunth",
+    "nome_correto": "Oxycaryum cubense (Poepp. & Kunth) Palla"
+  },
+  {
+    "nome_passado": "Scleria abortiva Nees ex Kunth",
+    "nome_correto": "Scleria abortiva Nees ex Kunth"
+  },
+  {
+    "nome_passado": "Equisetum hyemale L.",
+    "nome_correto": "Equisetum hyemale L."
+  },
+  {
+    "nome_passado": "Caperonia aculeolata Müll.Arg.",
+    "nome_correto": "Caperonia aculeolata Müll.Arg."
+  },
+  {
+    "nome_passado": "Sesbania benthamiana Domin",
+    "nome_correto": "Sesbania benthamiana Domin"
+  },
+  {
+    "nome_passado": "Aeschynomene indica L.",
+    "nome_correto": "Aeschynomene indica L."
+  },
+  {
+    "nome_passado": "Aeschynomene virginica (L.) Britton & al.",
+    "nome_correto": "Aeschynomene virginica (L.) Britton & al."
+  },
+  {
+    "nome_passado": "Crotalaria abbreviata Baker f.",
+    "nome_correto": "Crotalaria abbreviata Baker f."
+  },
+  {
+    "nome_passado": "Dalbergia ecastophyllum (L.) Taub.",
+    "nome_correto": "Dalbergia ecastaphyllum (L.) Taub."
+  },
+  {
+    "nome_passado": "Discolobium elongatum Benth.",
+    "nome_correto": "Discolobium elongatum Benth."
+  },
+  {
+    "nome_passado": "Schultesia angustifolia Griseb.",
+    "nome_correto": "Schultesia angustifolia Griseb."
+  },
+  {
+    "nome_passado": "Hydrilla verticillata (L.f.) Royle",
+    "nome_correto": "Hydrilla verticillata (L.f.) Royle"
+  },
+  {
+    "nome_passado": "Najas affinis Rendle",
+    "nome_correto": "Najas affinis Rendle"
+  },
+  {
+    "nome_passado": "Juncus dichotomus Elliott",
+    "nome_correto": "Juncus dichotomus Elliott"
+  },
+  {
+    "nome_passado": "Hyptis actinocephala Griseb.",
+    "nome_correto": "Hyptis actinocephala Griseb."
+  },
+  {
+    "nome_passado": "Hyptis vilis K.Koch & C.D.Bouché",
+    "nome_correto": "Hyptis vilis K.Koch & C.D.Bouché"
+  },
+  {
+    "nome_passado": "Scutellaria minor Huds.",
+    "nome_correto": "Scutellaria minor Huds."
+  },
+  {
+    "nome_passado": "Utricularia adpressa Salzm. ex A.St.-Hilaire & F.Girard",
+    "nome_correto": "Utricularia adpressa Salzm. ex A.St.-Hilaire & F.Girard"
+  },
+  {
+    "nome_passado": "Lindernia microcalyx Pennell & Stehlé",
+    "nome_correto": "Lindernia microcalyx Pennell & Stehlé"
+  },
+  {
+    "nome_passado": "Hibiscus cisplatinus A.St.-Hil.",
+    "nome_correto": "Hibiscus striatus Cav."
+  },
+  {
+    "nome_passado": "Hibiscus striatus Cav.",
+    "nome_correto": "Hibiscus striatus Cav."
+  },
+  {
+    "nome_passado": "Pavonia sessiliflora Kunth",
+    "nome_correto": "Peltaea sessiliflora (Kunth) Standl."
+  },
+  {
+    "nome_passado": "Acisanthera alata Cogn.",
+    "nome_correto": "Acisanthera alata Cogn."
+  },
+  {
+    "nome_passado": "Lavoisiera adamantium Pedersoli",
+    "nome_correto": "Lavoisiera adamantium Pedersoli"
+  },
+  {
+    "nome_passado": "Nymphoides indica (L.) Kuntze",
+    "nome_correto": "Nymphoides indica (L.) Kuntze"
+  },
+  {
+    "nome_passado": "Nymphaea alba L.",
+    "nome_correto": "Nymphaea alba L."
+  },
+  {
+    "nome_passado": "Ludwigia linifolia Poir.",
+    "nome_correto": "Ludwigia linifolia Poir."
+  },
+  {
+    "nome_passado": "Ludwigia abyssinica A.Rich.",
+    "nome_correto": "Ludwigia abyssinica A.Rich."
+  },
+  {
+    "nome_passado": "Ludwigia suffruticosa Walter",
+    "nome_correto": "Ludwigia suffruticosa Walter"
+  },
+  {
+    "nome_passado": "Habenaria aberrans Schltr.",
+    "nome_correto": "Habenaria aberrans Schltr."
+  },
+  {
+    "nome_passado": "Vellosiella dracocephaloides (Vell.) Baill.",
+    "nome_correto": "Vellosiella dracocephaloides (Vell.) Baill."
+  },
+  {
+    "nome_passado": "Sesamum indicum L.",
+    "nome_correto": "Sesamum indicum L."
+  },
+  {
+    "nome_passado": "Phyllanthus abditus G.L.Webster",
+    "nome_correto": "Phyllanthus abditus G.L.Webster"
+  },
+  {
+    "nome_passado": "Stemodia pratensis (Aubl.) C.P.Cowan",
+    "nome_correto": "Stemodia pratensis (Aubl.) C.P.Cowan"
+  },
+  {
+    "nome_passado": "Agrostis palustris Huds.",
+    "nome_correto": "Agrostis stolonifera L."
+  },
+  {
+    "nome_passado": "Heleochloa schoenoides (L.) Host",
+    "nome_correto": "Crypsis schoenoides (L.) Lam."
+  },
+  {
+    "nome_passado": "Leptochloa fascicularis (Lam.) A.Gray",
+    "nome_correto": "Leptochloa fusca subsp. fascicularis (Lam.) N.Snow"
+  },
+  {
+    "nome_passado": "Panicum boliviense Hack.",
+    "nome_correto": "Panicum polygonatum Schrad."
+  },
+  {
+    "nome_passado": "Panicum milleflorum Hitchc. & Chase",
+    "nome_correto": "Panicum pilosum Sw."
+  },
+  {
+    "nome_passado": "Panicum abscissum Swallen",
+    "nome_correto": "Panicum abscissum Swallen"
+  },
+  {
+    "nome_passado": "Paspalum acuminatum Raddi",
+    "nome_correto": "Paspalum acuminatum Raddi"
+  },
+  {
+    "nome_passado": "Setaria pauciflora Linden ex Herrm.",
+    "nome_correto": "Setaria pauciflora Linden ex Herrm."
+  },
+  {
+    "nome_passado": "Steinchisma cupreum (Hitchc. & Chase) W.V.Br.",
+    "nome_correto": "Steinchisma cupreum (Hitchc. & Chase) W.V.Br."
+  },
+  {
+    "nome_passado": "Trichanthecium cyanescens (Nees ex Trin.) Zuloaga & Morrone",
+    "nome_correto": "Panicum cyanescens Nees ex Trin."
   }
 ]

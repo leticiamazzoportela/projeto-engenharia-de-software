@@ -2,24 +2,28 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import os
+import io
+import util
 
 DIRNAME = os.path.dirname(__file__)
 BASE_URL = "http://www.theplantlist.org/"
 
 
 def scrap_results(section_html, specie, name_list, not_found):
-    item = section_html.find("td")
+    item = section_html.find("td", class_="Accepted")
+    if(not item):
+        item = section_html.find("td", class_="Synonym")
     if item:
-        link = item.find("a")['href']
-        page = requests.get(BASE_URL + link)
+        link = item.select_one("a")
+        page = requests.get(BASE_URL + link['href'])
         soup = BeautifulSoup(page.text, "lxml")
         section = soup.find("section")
-        scrap_synonym(section, name_list)
+        scrap_synonym(section, name_list, not_found)
     else:
         not_found.append(specie)
 
 
-def scrap_synonym(section_html, name_list):
+def scrap_synonym(section_html, name_list, not_found):
     title = section_html.find("h1")
     subtitle = title.select_one(".subtitle")
     firstLink = subtitle.find("a")
@@ -29,11 +33,14 @@ def scrap_synonym(section_html, name_list):
             "nome_correto": title.select_one(".name").text,
         })
     else:
-        accepted_name = firstLink.findNext('a')
-        name_list.append({
-            "nome_passado": title.select_one(".name").text,
-            "nome_correto": accepted_name.text,
-        })
+        accepted_name = subtitle.find("span", class_="name")
+        if(accepted_name):
+            name_list.append({
+                "nome_passado": title.select_one(".name").text,
+                "nome_correto": accepted_name.text,
+            })
+        else:
+            not_found.append(title.select_one(".name").text)
 
 
 def scrap_info(source_html, specie, name_list, not_found):
@@ -45,42 +52,30 @@ def scrap_info(source_html, specie, name_list, not_found):
     isResult = False
     if(header2 and header2.text == "Results"):
         return scrap_results(section, specie, name_list, not_found)
-    return scrap_synonym(section, name_list)
+    return scrap_synonym(section, name_list, not_found)
 
 
 def crawl_all_species(species, name_list, not_found):
     for specie in species:
-        page = requests.get(BASE_URL + "tpl1.1/search?q=" + specie)
+        print(specie)
+        page = requests.get(
+            BASE_URL + "tpl1.1/search?q=" + util.normalize(specie))
         scrap_info(page.text, specie, name_list, not_found)
 
 
 def getNames():
-    species = [
-        "Hygrophila guianensis",
-        "Hygrophila helodes",
-        "Justicia comata",
-        "Justicia aequilabris",
-        "Justicia laevilinguis",
-        "Justia pectoralis",
-        "Nelsonia brunelloides",
-        "Ruellia bahiensis",
-        "Ruellia paniculata",
-        "Sesuvium portulacastrum",
-        "Echinodorus andrieuxii",
-        "Echinodorus argentinensis",
-        "Echinodorus aschersonianus",
-        "Echinodorus bolivianus",
-        "Echinodorus cordifolius",
-    ]
+    with open(os.path.join(DIRNAME, 'data/florabrasil_NOTFOUND.json')) as f:
+        species = json.load(f)
+
     name_list = []
     not_found = []
     crawl_all_species(species, name_list, not_found)
 
-    with open(os.path.join(DIRNAME, 'data/plantlist_data.json'), 'w') as list_file:
-        json.dump(name_list, list_file, indent=2)
+    with io.open(os.path.join(DIRNAME, 'data/plantlist_data.json'), 'w', encoding="UTF-8") as list_file:
+        json.dump(name_list, list_file, indent=2, ensure_ascii=False)
 
-    with open(os.path.join(DIRNAME, 'data/plantlist_NOTFOUND.json'), 'w') as list_file:
-        json.dump(not_found, list_file, indent=2)
+    with io.open(os.path.join(DIRNAME, 'data/plantlist_NOTFOUND.json'), 'w', encoding="UTF-8") as list_file:
+        json.dump(not_found, list_file, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":
