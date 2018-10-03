@@ -11,7 +11,6 @@ DIRNAME = os.path.dirname(__file__)
 
 def getNames():
     lista_nomes = []
-    nao_encontrados = []
 
     with open(os.path.join(DIRNAME, 'data/macrofitas.json')) as f:
         species = json.load(f)
@@ -26,32 +25,31 @@ def getNames():
             'http://servicos.jbrj.gov.br/flora/taxon/' + util.normalize(name))
         dado = json.loads(r.content)
         if(r.status_code == 200):
-            if(dado.get('result') == None):
-                nao_encontrados.append(specie)
+            if(dado.get('result') == None): #checa se há resultado para essa espécie no Flora Brasil
+                nomes['status'] = 'nao_encontrado'
+                nomes['nome'] = specie
             else:
-                nomes['nome_passado'] = specie
-                if(dado.get('result')[0]['taxonomicstatus'] == 'NOME_ACEITO'):
-                    nomes['nome_correto'] = dado.get(
-                        'result')[0]['scientificname']
+                nomes['status'] = ""
+                nomes['nome'] = specie
+                if(dado.get('result')[0]['taxonomicstatus'] == 'NOME_ACEITO'): #checa se o nome buscado é o aceito
+                    nomes['status'] = 'nome_aceito'
                 else:
+                    nomes['status'] = 'sinonimo'
                     accepted_name = dado.get(
                         'result')[0]['acceptednameusage']
                     if (accepted_name):
-                        nomes['nome_correto'] = accepted_name
+                        nomes['nome_aceito'] = accepted_name
                     else:
-                        nao_encontrados.append(specie)
+                        nomes['status'] = 'nao_encontrato'
+                        nomes['nome'] = specie
                 lista_nomes.append(nomes.copy())
         else:
             print(r.status_code)
-
-    macrofitas = 'nome_validado.json'
+        
+    print(lista_nomes)
 
     with io.open(os.path.join(DIRNAME, 'data/florabrasil_data.json'), 'w', encoding='utf8') as arq:
         json.dump(lista_nomes, arq, indent=2, ensure_ascii=False)
-
-    with io.open(os.path.join(DIRNAME, 'data/florabrasil_NOTFOUND.json'), 'w', encoding='utf8') as arq:
-        json.dump(nao_encontrados, arq, indent=2, ensure_ascii=False)
-
 
 if __name__ == "__main__":
     getNames()
