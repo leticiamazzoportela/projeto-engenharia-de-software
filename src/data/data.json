@@ -16,8 +16,9 @@
     "nome": "Hygrophila guianensis Nees"
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Hygrophila helodes Nees "
+    "status": "sinonimo",
+    "nome": "Hygrophila helodes Nees ",
+    "nome_aceito": "Hygrophila costata Nees"
   },
   {
     "status": "nome_aceito",
@@ -72,7 +73,7 @@
     "nome_aceito": "Helanthium bolivianum (Rusby) Lehtonen & Myllys"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Echinodorus cordifolius (L.) Griseb. "
   },
   {
@@ -120,8 +121,9 @@
     "nome": "Echinodorus pubescens (Mart.) Seub. and Warm."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Echinodorus ranunculoides (L.) Engelm."
+    "status": "sinonimo",
+    "nome": "Echinodorus ranunculoides (L.) Engelm.",
+    "nome_aceito": "Baldellia ranunculoides (L.) Parl."
   },
   {
     "status": "nome_aceito",
@@ -232,11 +234,11 @@
     "nome": "Amaranthus viridis L."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Atriplex montevidensis Spr."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Atriplex undulata (Moq.) Dietr."
   },
   {
@@ -275,12 +277,13 @@
     "nome_aceito": "Hebanthe pulverulenta Mart."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Pfaffia iresinoides (Kunth) Spreng."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Salicornia ambigua Michx."
+    "status": "sinonimo",
+    "nome": "Salicornia ambigua Michx.",
+    "nome_aceito": "Sarcocornia perennis (Mill.) A.J.Scott"
   },
   {
     "status": "sinonimo",
@@ -296,7 +299,7 @@
     "nome": "Hyppeastrum angustifolium Pax"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Schinus terenbinthifolius Raddi."
   },
   {
@@ -392,11 +395,11 @@
     "nome": "Rhabdanenia pohlii Mull. Arg."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Alocasia macrorrhiza (L.) Schott."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Colocasia esculenta (L.) Schott."
   },
   {
@@ -440,7 +443,7 @@
     "nome": "Philodendron rudgeanum Schott"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Pistia stratioides L."
   },
   {
@@ -476,11 +479,11 @@
     "nome": "Wolffiella welwitschii (Hegelm.) Monod"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Xanthosoma aristiguietae (Bunt.) Madison"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Zantedeschia aethiopica (L.) Spr."
   },
   {
@@ -553,7 +556,7 @@
     "nome": "Ageratum conyzoides L."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Ambrosia artemisiaefolia L."
   },
   {
@@ -579,7 +582,7 @@
     "nome_aceito": "Baccharis junciformis DC."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Baccharidastrum triplinerve (Less.) Cabrera"
   },
   {
@@ -615,7 +618,7 @@
     "nome": "Chrysolaena platensis (Spreng.) H. Robins. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Clibadium amanii (Balb.) Sch. Bip. ex Baker"
   },
   {
@@ -668,15 +671,15 @@
     "nome": "Enydra radicans (Willd.) Lack."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Enydra sessilis (SW.) DC. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Enydra virularis Gardner"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Erechtites hieracifolia (L.) Rafin"
   },
   {
@@ -688,12 +691,14 @@
     "nome": "Erechtites valerianifolius (Link ex Spreng.) DC."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Erigeron maximus (D. Don) DC."
+    "status": "sinonimo",
+    "nome": "Erigeron maximus (D. Don) DC.",
+    "nome_aceito": "Leptostelma maxima D.Don"
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Eupatorium bupleurifolium DC."
+    "status": "sinonimo",
+    "nome": "Eupatorium bupleurifolium DC.",
+    "nome_aceito": "Campovassouria cruciata (Vell.) R.M.King & H.Rob."
   },
   {
     "status": "sinonimo",
@@ -701,15 +706,17 @@
     "nome_aceito": "Barrosoa candolleana (Hook. & Arn.) R.M.King & H.Rob."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Eupatorium subhastatum Hook. & Arn."
+    "status": "sinonimo",
+    "nome": "Eupatorium subhastatum Hook. & Arn.",
+    "nome_aceito": "Badilloa steetzii (B.L.Rob.) R.M.King & H.Rob."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Eupatorium tremulum Hook. & Arn."
+    "status": "sinonimo",
+    "nome": "Eupatorium tremulum Hook. & Arn.",
+    "nome_aceito": "Raulinoreitzia tremula (Hook. & Arn.) R.M.King & H.Rob."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Eupatorium tweedianum Hook. & Arn."
   },
   {
@@ -717,8 +724,9 @@
     "nome": "Gamochaeta americana (Mill.) Wedd."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Gnaphalium spicatum Mill. "
+    "status": "sinonimo",
+    "nome": "Gnaphalium spicatum Mill. ",
+    "nome_aceito": "Gnaphalium coarctatum Willd."
   },
   {
     "status": "nome_aceito",
@@ -801,7 +809,7 @@
     "nome": "Senecio icoglossus DC."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Senecio mattfeldianus Cabr."
   },
   {
@@ -851,7 +859,7 @@
     "nome": "Wedelia calycina Rich. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Impatiens wallerana Hook. F. "
   },
   {
@@ -930,7 +938,7 @@
     "nome": "Cardamine bonariensis Pers. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Nasturtium officinale R. Br."
   },
   {
@@ -999,7 +1007,7 @@
     "nome_aceito": "Lobelia hederacea Cham."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Siphocampylus sulfereus Wimmer"
   },
   {
@@ -1011,7 +1019,7 @@
     "nome": "Canna glauca L. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Canna xgeneralis L.H. Bailey"
   },
   {
@@ -1061,7 +1069,7 @@
     "nome": "Anisea cernua Moric."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Aniseia martinicensis(Jacq.) Choisy "
   },
   {
@@ -1077,7 +1085,7 @@
     "nome": "Evolvulus nummularius (L.) L. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Evolvulus pohlli Meiss."
   },
   {
@@ -1089,7 +1097,7 @@
     "nome": "Ipomoea aquatica Forssk. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Ipomoea asaralifolia Poir."
   },
   {
@@ -1187,7 +1195,7 @@
     "nome": "Costus arabicus L."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Costus spirales (Jacq.) Roscoe "
   },
   {
@@ -1199,8 +1207,9 @@
     "nome": "Cyclanthera hystrix (Gillies) Arn."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Elaterium amazonicum Mart. "
+    "status": "sinonimo",
+    "nome": "Elaterium amazonicum Mart. ",
+    "nome_aceito": "Rytidostylis amazonica (Mart. ex Cogn.) Spruce ex Kuntze"
   },
   {
     "status": "nome_aceito",
@@ -1527,7 +1536,7 @@
     "nome": "Eleocharis elongata Chapman "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Eleocharis equisetoides (Elliott.) Torr."
   },
   {
@@ -1601,7 +1610,7 @@
     "nome": "Eleocharis subarticulata (Nees) Boeck. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Eleocharis umbellata Rottb."
   },
   {
@@ -1785,8 +1794,9 @@
     "nome": "Schoenoplectus californicus (C.A.Mey) Soják"
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Scirpus americanus Pers."
+    "status": "sinonimo",
+    "nome": "Scirpus americanus Pers.",
+    "nome_aceito": "Schoenoplectus americanus (Pers.) Volkart"
   },
   {
     "status": "sinonimo",
@@ -1794,8 +1804,9 @@
     "nome_aceito": "Schoenoplectus californicus (C.A.Mey.) Soják"
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Scirpus cubensis  Poepp. & Kunth "
+    "status": "sinonimo",
+    "nome": "Scirpus cubensis  Poepp. & Kunth ",
+    "nome_aceito": "Oxycaryum cubense (Poepp. & Kunth) Palla"
   },
   {
     "status": "sinonimo",
@@ -1847,7 +1858,7 @@
     "nome": "Scleria secans (L.) Urb. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Scleria soronia (Nees) Kunth"
   },
   {
@@ -1876,7 +1887,7 @@
     "nome": "Equisetum giganteum L."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Equisetum hyemale L."
   },
   {
@@ -1996,7 +2007,7 @@
     "nome": "Caperonia castaneifolia A. St.-Hil. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Caperonia histrix Pax & Hoffm."
   },
   {
@@ -2037,7 +2048,7 @@
     "nome_aceito": "Sapium glandulosum (L.) Morong"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Sesbania schottiana (M. Arg.) M. Arg."
   },
   {
@@ -2073,7 +2084,7 @@
     "nome": "Aeschynomene fluminensis Vell. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Aeschynomene indica L."
   },
   {
@@ -2101,7 +2112,7 @@
     "nome": "Aeschynomene sensitiva Sw. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Aeschynomene virginica (L.) Britton, Sterns & Poggenb."
   },
   {
@@ -2157,7 +2168,7 @@
     "nome": "Collaea speciosa (Loisel.) DC."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Crotalaria brevifolia DC."
   },
   {
@@ -2185,8 +2196,9 @@
     "nome": "Cymbosema roseum Benth. "
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Dalbergia ecastophyllum (L.) Taub. "
+    "status": "sinonimo",
+    "nome": "Dalbergia ecastophyllum (L.) Taub. ",
+    "nome_aceito": "Dalbergia ecastaphyllum (L.) Taub."
   },
   {
     "status": "nome_aceito",
@@ -2217,7 +2229,7 @@
     "nome": "Discolobium leptophyllum Benth."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Discolobium psoraliaefolium Benth. "
   },
   {
@@ -2451,7 +2463,7 @@
     "nome": "Schultesia guianensis (Aubl.) Malme"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Schultesia optera Cham."
   },
   {
@@ -2512,7 +2524,7 @@
     "nome": "Halophila decipiens Ostenf."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Hydrilla verticillata (L.f.) Royle"
   },
   {
@@ -2520,7 +2532,7 @@
     "nome": "Limnobium laevigatum (Humb. & Bonpl. ex Willd.) Heine "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Najas argurta Kunth"
   },
   {
@@ -2613,7 +2625,7 @@
     "nome": "Juncus densiflorus Kunth"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Juncus dichotomus Elliot"
   },
   {
@@ -2680,7 +2692,7 @@
     "nome": "Hyptis lagenaria A. St.-Hil ex Benth"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Hyptis lantaniifolia Poit. "
   },
   {
@@ -2719,7 +2731,7 @@
     "nome": "Hyptis tetracephala Bordig."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Hyptis vilis Kunth & Bouché"
   },
   {
@@ -2743,7 +2755,7 @@
     "nome": "Salvia scabrida Pohl"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Scutellaria minor Huds."
   },
   {
@@ -2771,7 +2783,7 @@
     "nome": "Utricularia breviscapa Wright ex Griseb."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Utricularia cucculata A.St.-Hil. & Girard"
   },
   {
@@ -2892,7 +2904,7 @@
     "nome": "Lindernia diffusa (L.) Wettst. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Lindernia microcalyx Pennell and Stehlé"
   },
   {
@@ -3021,8 +3033,9 @@
     "nome": "Hibiscus bifurcatus Cav. "
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Hibiscus cisplatinus A.St.-Hil."
+    "status": "sinonimo",
+    "nome": "Hibiscus cisplatinus A.St.-Hil.",
+    "nome_aceito": "Hibiscus striatus Cav."
   },
   {
     "status": "nome_aceito",
@@ -3041,7 +3054,7 @@
     "nome": "Hibiscus sororius L."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Hibiscus striatus Cav."
   },
   {
@@ -3091,8 +3104,9 @@
     "nome": "Pavonia laetevirens R. E. Fr."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Pavonia sessiliflora Kunth"
+    "status": "sinonimo",
+    "nome": "Pavonia sessiliflora Kunth",
+    "nome_aceito": "Peltaea sessiliflora (Kunth) Standl."
   },
   {
     "status": "nome_aceito",
@@ -3205,7 +3219,7 @@
     "nome": "Acisanthera alsinaefolia (DC.) Triana"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Acisanthera divaricarta Cogn."
   },
   {
@@ -3242,7 +3256,7 @@
     "nome": "Desmoscelis villosa (Aubl.) Naudin "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Lavoisiera umbricata DC."
   },
   {
@@ -3373,7 +3387,7 @@
     "nome": "Nymphoides humboldtiana (Kunth) Kuntze "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Nymphoides indica (L.) Kuntze"
   },
   {
@@ -3393,7 +3407,7 @@
     "nome": "Psidium cattleianum Sabine "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Nymphaea alba  L. "
   },
   {
@@ -3545,7 +3559,7 @@
     "nome": "Ludwigia leptocarpa (Nutt.) H.Hara"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Ludwigia linifolia Poir."
   },
   {
@@ -3581,7 +3595,7 @@
     "nome": "Ludwigia rigida (Miq.) Sandwith "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Ludwigia sedoides (Humb. & Bonpl.) H.Hara"
   },
   {
@@ -3589,7 +3603,7 @@
     "nome": "Ludwigia sericea (Camb.) H. Hara "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Ludwigia suffruticosa (L.) H. Hara "
   },
   {
@@ -3645,7 +3659,7 @@
     "nome": "Habenaria bractescens Lindl."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Habenaria graciliscarpa B. Rodr."
   },
   {
@@ -3699,7 +3713,7 @@
     "nome": "Melasma melampyroides (Rich.) Pennell "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Vellosiella dracocephaloides (Vell.) Baill."
   },
   {
@@ -3731,7 +3745,7 @@
     "nome": "Turnera scabra Millsp. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Sesamum indicum L."
   },
   {
@@ -3739,7 +3753,7 @@
     "nome": "Phyllanthus fluitans Benth. ex Müll. Arg. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Phyllanthus hyssopifolioloides H. B. K."
   },
   {
@@ -3865,7 +3879,7 @@
     "nome": "Stemodia maritima L. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Stemodia pratensis (Aubl.) C.C. Cowan"
   },
   {
@@ -3877,8 +3891,9 @@
     "nome": "Acroceras zizanioides (Kunth) Dandy"
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Agrostis palustris Huds."
+    "status": "sinonimo",
+    "nome": "Agrostis palustris Huds.",
+    "nome_aceito": "Agrostis stolonifera L."
   },
   {
     "status": "nome_aceito",
@@ -4046,8 +4061,9 @@
     "nome": "Gynerium sagittatum (Aubl.) P. Beauv. "
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Heleochloa schoenoides (L.) Host"
+    "status": "sinonimo",
+    "nome": "Heleochloa schoenoides (L.) Host",
+    "nome_aceito": "Crypsis schoenoides (L.) Lam."
   },
   {
     "status": "nome_aceito",
@@ -4098,8 +4114,9 @@
     "nome": "Leersia hexandra Sw."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Leptochloa fascicularis (Lam.) A. Gray "
+    "status": "sinonimo",
+    "nome": "Leptochloa fascicularis (Lam.) A. Gray ",
+    "nome_aceito": "Leptochloa fusca subsp. fascicularis (Lam.) N.Snow"
   },
   {
     "status": "nome_aceito",
@@ -4180,8 +4197,9 @@
     "nome": "Panicum aquaticum Poir."
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Panicum boliviense Hack."
+    "status": "sinonimo",
+    "nome": "Panicum boliviense Hack.",
+    "nome_aceito": "Panicum polygonatum Schrad."
   },
   {
     "status": "nome_aceito",
@@ -4223,8 +4241,9 @@
     "nome_aceito": "Stephostachys mertensii (Roth) Zuloaga & Morrone"
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Panicum milleflorum Hitchc. And Chase"
+    "status": "sinonimo",
+    "nome": "Panicum milleflorum Hitchc. And Chase",
+    "nome_aceito": "Panicum pilosum Sw."
   },
   {
     "status": "sinonimo",
@@ -4232,7 +4251,7 @@
     "nome_aceito": "Trichanthecium parvifolium (Lam.) Zuloaga & Morrone"
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Panicum pernambuncense (Spreng.) Mez ex Pilg."
   },
   {
@@ -4317,7 +4336,7 @@
     "nome": "Paspalum glaucescens Hack. "
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Paspalum hydrophyllum Henr."
   },
   {
@@ -4435,7 +4454,7 @@
     "nome": "Spartina densiflora Brongn."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Setaria pauciflora Linden ex Herrm"
   },
   {
@@ -4459,7 +4478,7 @@
     "nome": "Sporobolus indicus (L.) R.Br."
   },
   {
-    "status": "nao_encontrado",
+    "status": "nome_aceito",
     "nome": "Steinchisma laxa (Sw.) Zuloaga"
   },
   {
@@ -4475,8 +4494,9 @@
     "nome": "Stephostachys mertensii (Roth) Zuloaga & Morrone "
   },
   {
-    "status": "nao_encontrado",
-    "nome": "Trichanthecium cyanenscens (Nees ex Trin.) Zuloaga & Morrone"
+    "status": "sinonimo",
+    "nome": "Trichanthecium cyanenscens (Nees ex Trin.) Zuloaga & Morrone",
+    "nome_aceito": "Panicum cyanescens Nees ex Trin."
   },
   {
     "status": "nome_aceito",
