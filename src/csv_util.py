@@ -30,8 +30,6 @@ def saveCSV():
         for specie in species:
             writer.writerow([specie["status"], specie["nome"], specie["nome_aceito"] if specie.__contains__("nome_aceito") else ""])
 
-    print(species)
-
 
 if __name__ == "__main__":
     saveCSV()
