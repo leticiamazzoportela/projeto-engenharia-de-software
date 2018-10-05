@@ -18,7 +18,7 @@ def readInput():
 
 
 def saveCSV(species):
-    with io.open(os.path.join(DIRNAME, 'output.csv'), 'w', encoding="UTF-8") as csv_file:
+    with io.open(os.path.join(DIRNAME, 'outputTest.csv'), 'w', encoding="UTF-8") as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow([
             "nome",

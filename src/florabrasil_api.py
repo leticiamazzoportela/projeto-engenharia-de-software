@@ -50,14 +50,11 @@ def getNames(species):
 
     # print(lista_nomes)
 
-    with io.open(os.path.join(DIRNAME, 'data/data.json'), 'w', encoding='utf8') as arq:
-        json.dump(lista_nomes, arq, indent=2, ensure_ascii=False)
-
     return lista_nomes
 
 
 if __name__ == "__main__":
-    getNames([
+    print(getNames([
         "Echinodorus bolivianus (Rusby) Hom-Niels",
         "Echinodorus cordifolius (L.) Griseb. ",
         "Echinodorus floribundus (Seub.) Seub.",
@@ -65,4 +62,4 @@ if __name__ == "__main__":
         "Echinodorus grandiflorus (Cham. & Schltdl.) Micheli",
         "Echinodorus grisebachii Small",
         "Echinodorus lanceolatus Rataj",
-    ])
+    ]))

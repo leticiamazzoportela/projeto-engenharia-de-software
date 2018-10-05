@@ -1,5 +1,11 @@
 import unittest
-import plantlist_crawler
+import sys
+import os
+
+DIRNAME = os.path.dirname(__file__)
+
+sys.path.insert(0, os.path.join(DIRNAME, "../src"))
+import plantlist_crawler as plantlist_crawler
 
 test_caseImput = [
     {
