@@ -26,21 +26,22 @@ def getNames():
         dado = json.loads(r.content)
         if(r.status_code == 200):
             if(dado.get('result') == None): #checa se há resultado para essa espécie no Flora Brasil
-                nomes['status'] = 'nao_encontrado'
+                nomes['status_florabrasil'] = 'nao_encontrado'
                 nomes['nome'] = specie
             else:
-                nomes['status'] = ""
+                nomes['status_florabrasil'] = ""
                 nomes['nome'] = specie
                 if(dado.get('result')[0]['taxonomicstatus'] == 'NOME_ACEITO'): #checa se o nome buscado é o aceito
-                    nomes['status'] = 'nome_aceito'
+                    nomes['status_florabrasil'] = ''
+                    nomes['florabrasil'] = dado.get('result')[0]['scientificname']
                 else:
-                    nomes['status'] = 'sinonimo'
+                    nomes['status_florabrasil'] = 'sinonimo'
                     accepted_name = dado.get(
                         'result')[0]['acceptednameusage']
                     if (accepted_name):
-                        nomes['nome_aceito'] = accepted_name
+                        nomes['florabrasil'] = accepted_name
                     else:
-                        nomes['status'] = 'nao_encontrato'
+                        nomes['status_florabrasil'] = 'nao_encontrato'
                         nomes['nome'] = specie
                 lista_nomes.append(nomes.copy())
         else:
@@ -50,6 +51,8 @@ def getNames():
 
     with io.open(os.path.join(DIRNAME, 'data/florabrasil_data.json'), 'w', encoding='utf8') as arq:
         json.dump(lista_nomes, arq, indent=2, ensure_ascii=False)
+
+    return lista_nomes
 
 if __name__ == "__main__":
     getNames()
