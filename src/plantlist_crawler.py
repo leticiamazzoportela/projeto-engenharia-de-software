@@ -21,6 +21,9 @@ def scrap_results(section_html, specie):
                 soup = BeautifulSoup(page.text, "lxml")
                 section = soup.find("section")
                 return scrap_synonym(section, specie)
+        # if not found specie
+        specie["status_plantlist"] = "nao_encontrado"
+        specie["plantlist"] = ""
     except:
         specie["status_plantlist"] = "nao_encontrado"
         specie["plantlist"] = ""
@@ -39,6 +42,8 @@ def scrap_synonym(section_html, specie):
         if(accepted_name):
             specie["status_plantlist"] = "sinonimo"
             specie["plantlist"] = accepted_name.text
+        else:
+            print("\n\n" + specie + "\n\n\n")
     else:
         specie["status_plantlist"] = "Não resolvido"
         specie["plantlist"] = title.select_one(".name").text
@@ -69,7 +74,6 @@ def crawl_all_species(species):
 
 
 def getNames(species):
-
     crawl_all_species(species)
 
     return species

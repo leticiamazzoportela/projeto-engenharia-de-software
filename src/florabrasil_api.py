@@ -9,11 +9,8 @@ import util
 DIRNAME = os.path.dirname(__file__)
 
 
-def getNames():
+def getNames(species):
     lista_nomes = []
-
-    with open(os.path.join(DIRNAME, 'data/macrofitas.json')) as f:
-        species = json.load(f)
 
     for specie in species:
         print(specie)
@@ -25,15 +22,17 @@ def getNames():
             'http://servicos.jbrj.gov.br/flora/taxon/' + util.normalize(name))
         dado = json.loads(r.content)
         if(r.status_code == 200):
-            if(dado.get('result') == None): #checa se há resultado para essa espécie no Flora Brasil
+            if(dado.get('result') == None):  # checa se há resultado para essa espécie no Flora Brasil
                 nomes['status_florabrasil'] = 'nao_encontrado'
                 nomes['nome'] = specie
             else:
                 nomes['status_florabrasil'] = ""
                 nomes['nome'] = specie
-                if(dado.get('result')[0]['taxonomicstatus'] == 'NOME_ACEITO'): #checa se o nome buscado é o aceito
+                # checa se o nome buscado é o aceito
+                if(dado.get('result')[0]['taxonomicstatus'] == 'NOME_ACEITO'):
                     nomes['status_florabrasil'] = ''
-                    nomes['florabrasil'] = dado.get('result')[0]['scientificname']
+                    nomes['florabrasil'] = dado.get(
+                        'result')[0]['scientificname']
                 else:
                     nomes['status_florabrasil'] = 'sinonimo'
                     accepted_name = dado.get(
@@ -48,7 +47,7 @@ def getNames():
             nomes['nome'] = specie
 
         lista_nomes.append(nomes)
-        
+
     # print(lista_nomes)
 
     with io.open(os.path.join(DIRNAME, 'data/data.json'), 'w', encoding='utf8') as arq:
@@ -56,5 +55,14 @@ def getNames():
 
     return lista_nomes
 
+
 if __name__ == "__main__":
-    getNames()
+    getNames([
+        "Echinodorus bolivianus (Rusby) Hom-Niels",
+        "Echinodorus cordifolius (L.) Griseb. ",
+        "Echinodorus floribundus (Seub.) Seub.",
+        "Echinodorus glandulosus Rataj",
+        "Echinodorus grandiflorus (Cham. & Schltdl.) Micheli",
+        "Echinodorus grisebachii Small",
+        "Echinodorus lanceolatus Rataj",
+    ])

@@ -17,16 +17,31 @@ def readInput():
     return nomes
 
 
-def saveCSV():
-    with io.open(os.path.join(DIRNAME, 'data/data.json'), 'r', encoding="UTF-8") as f:
-        species = json.load(f)
+def saveCSV(species):
     with io.open(os.path.join(DIRNAME, 'output.csv'), 'w', encoding="UTF-8") as csv_file:
         writer = csv.writer(csv_file)
-    
+        writer.writerow([
+            "nome",
+            "status flora do brasil",
+            "nome flora do brasil",
+            "status plantlist",
+            "plantlist"
+        ])
         for specie in species:
-            writer.writerow([specie["status"], specie["nome"], specie["nome_aceito"] if specie.__contains__("nome_aceito") else ""])
+            try:
+                writer.writerow([specie["nome"], specie["status_florabrasil"], specie["florabrasil"] if specie.__contains__("florabrasil") else "",
+                specie["status_plantlist"], specie["plantlist"] if specie.__contains__("plantlist") else ""])
+            except:
+                print(specie)
 
 
 if __name__ == "__main__":
-    saveCSV()
-    print(readInput())
+    saveCSV([
+        {
+            "nome": "teste",
+            "status_florabrasil": "status_florabrasil",
+            "florabrasil": "florabrasil",
+            "status_plantlist": "status_plantlist",
+            "plantlist": "plantlist"
+        }
+    ])
