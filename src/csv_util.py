@@ -22,15 +22,27 @@ def saveCSV(species):
         writer = csv.writer(csv_file)
         writer.writerow([
             "nome",
-            "status flora do brasil",
-            "nome flora do brasil",
+            "status flora brasil",
+            "nome flora brasil",
             "status plantlist",
-            "plantlist"
+            "plantlist",
+            "flora brasil x plantlist"
         ])
         for specie in species:
             try:
-                writer.writerow([specie["nome"], specie["status_florabrasil"], specie["florabrasil"] if specie.__contains__("florabrasil") else "",
-                specie["status_plantlist"], specie["plantlist"] if specie.__contains__("plantlist") else ""])
+                flora_plant = ""
+                if (specie.__contains__("florabrasil") and specie.__contains__("plantlist") and specie["plantlist"] != specie["florabrasil"] and specie["plantlist"] != "" and specie["florabrasil"] != ""):
+                    flora_plant = "diferente"
+                writer.writerow([
+                    specie["nome"],
+                    specie["status_florabrasil"],
+                    specie["florabrasil"] if specie.__contains__(
+                        "florabrasil") else "",
+                    specie["status_plantlist"],
+                    specie["plantlist"] if specie.__contains__(
+                        "plantlist") else "",
+                    flora_plant
+                ])
             except:
                 print(specie)
 
