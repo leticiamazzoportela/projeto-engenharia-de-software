@@ -43,13 +43,15 @@ def getNames():
                     else:
                         nomes['status_florabrasil'] = 'nao_encontrato'
                         nomes['nome'] = specie
-                lista_nomes.append(nomes.copy())
         else:
-            print(r.status_code)
-        
-    print(lista_nomes)
+            nomes['status'] = 'nao_encontrado'
+            nomes['nome'] = specie
 
-    with io.open(os.path.join(DIRNAME, 'data/florabrasil_data.json'), 'w', encoding='utf8') as arq:
+        lista_nomes.append(nomes)
+        
+    # print(lista_nomes)
+
+    with io.open(os.path.join(DIRNAME, 'data/data.json'), 'w', encoding='utf8') as arq:
         json.dump(lista_nomes, arq, indent=2, ensure_ascii=False)
 
     return lista_nomes
