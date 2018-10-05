@@ -83,18 +83,6 @@ if __name__ == "__main__":
     species = getNames([
         {
             "nome": "Dicliptera ciliaris Juss."
-        },
-        {
-            "nome": "Dyschoriste maranhonis Kuntze"
-        },
-        {
-            "nome": "Hygrophila costata Nees"
-        },
-        {
-            "nome": "Hygrophila angusta"
-        },
-        {
-            "nome":"Justia pectoralis Jacq."
         }
     ])
 
