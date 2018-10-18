@@ -9,6 +9,7 @@
 | 0.0.2 | 24/08/2018 | Cláudia, Igor, Jonas, Letícia | Adicionados mais detalhes do projeto |
 | 0.0.3 | 05/09/2018 | Cláudia, Igor, Jonas, Letícia | Adicionado requisitos do projeto |
 | 0.0.4 | 13/09/2018 | Cláudia, Igor, Jonas, Letícia | Adicionado requisitos para aprovação do projeto |
+| 0.0.4 | 18/10/2018 | Cláudia, Igor, Jonas, Letícia | Atualizar data da entrega 3 |
 ## Sumário
 1. [Objetivo do Documento](#od)
 2. [Propósito](#prop)
@@ -106,7 +107,7 @@ Detalhes a definir
 ## 5. Cronograma de Marcos
 + **Entrega 1:** 21/09/2018;
 + **Entrega 2:** 05/10/2018;
-+ **Entrega 3:** 19/10/2018;
++ **Entrega 3:** 02/11/2018;
 + **Entrega 4:** 06/12/2018.
 
 <div id="pip" />
