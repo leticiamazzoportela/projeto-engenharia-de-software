@@ -31,8 +31,11 @@ def saveCSV(species):
         for specie in species:
             try:
                 flora_plant = ""
-                if (specie.__contains__("florabrasil") and specie.__contains__("plantlist") and specie["plantlist"] != specie["florabrasil"] and specie["plantlist"] != "" and specie["florabrasil"] != ""):
-                    flora_plant = "diferente"
+                if (specie.__contains__("florabrasil") and specie.__contains__("plantlist") and specie["florabrasil"] != "" and specie["plantlist"] != ""):
+                    name_plantlist = specie["plantlist"].split(" ")[0] + " " + specie["plantlist"].split(" ")[1]
+                    name_florabrasil = specie["florabrasil"].split(" ")[0] + " " + specie["florabrasil"].split(" ")[1]
+
+                    flora_plant = "diferente" if name_plantlist != name_florabrasil else ""
                 writer.writerow([
                     specie["nome"],
                     specie["status_florabrasil"],
