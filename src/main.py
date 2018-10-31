@@ -1,6 +1,8 @@
 import csv_util
 import florabrasil_api
 import plantlist_crawler
+import util
+import json
 
 print("\n\n----------------------------")
 print("processando lista de entrada.....")
@@ -19,3 +21,8 @@ except ConnectionError:
 
 print("Salvando CSV")
 csv_util.saveSheet(plantlist_data)
+
+valid_names = util.get_list_of_valid_names(plantlist_data)
+
+with open('validname.json', 'w') as outfile:
+    json.dump(valid_names, outfile)
