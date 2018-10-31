@@ -44,13 +44,13 @@ def get_driver():
     return driver
 
 
-def search_specie(driver):
-    with wait_for_page_load(driver):
-        driver.find_element_by_id('searchFormCall').click()
-        inputField = driver.find_element_by_name('ts_any')
-        inputField.clear()
-        inputField.send_keys("teste")
-        driver.find_element_by_xpath("//input[@value='buscar']").click()
+def search_specie(driver, specie):
+    driver.find_element_by_id('searchFormCall').click()
+    inputField = driver.find_element_by_name('ts_any')
+    inputField.clear()
+    inputField.send_keys(specie)
+    driver.find_element_by_xpath("//input[@value='buscar']").click()
+
 
 def select_download(driver):
     start_time = time.time()
@@ -58,19 +58,19 @@ def select_download(driver):
     while(True):
         try:
             driver.find_element_by_id("div_hint_action"
-            )
+                                      )
         except:
             time.sleep(0.1)
             continue
         break
     dropdown = driver.find_element_by_id("div_hint_action"
-            ).find_element_by_tag_name("table").find_element_by_tag_name("table"
-            ).find_elements_by_tag_name("th")[-2].find_element_by_tag_name("select")
+                                         ).find_element_by_tag_name("table").find_element_by_tag_name("table"
+                                                                                                      ).find_elements_by_tag_name("th")[-2].find_element_by_tag_name("select")
     for option in dropdown.find_elements_by_tag_name("option"):
         if option.text == "… dados completos":
             option.click()
             break
-    
+
     while(True):
         try:
             driver.find_element_by_xpath("//input[@name='agree']").click()
@@ -78,18 +78,93 @@ def select_download(driver):
             time.sleep(0.1)
             continue
         break
-    
 
 
-def crawl_all_species(driver):
-    global url
-    last_url = url
-    search_specie(driver)
-    select_download(driver)
+def crawl_all_species(driver, species):
+    ocurrences = {}
+    for specie in species:
+        search_specie(driver, specie)
+        # select_download(driver)
+        ocurrences[specie] = get_all_occurrences(driver)
+    return ocurrences
 
-def get_data():
+
+def get_all_occurrences(driver):
+    occurences = []
+    while(True):
+        time_start = time.time()
+        while(True):
+            if time.time() > time_start + 5:
+                return occurences
+            try:
+                driver.find_element_by_xpath(
+                    '//div[contains(@class, "record")]')
+            except:
+                time.sleep(0.1)
+                continue
+            break
+        records = driver.find_elements_by_xpath(
+            '//div[contains(@class, "record")]')
+        i = 1
+        for record in records[1:]:
+            ocurrence = {}
+            try:
+                la = record.find_element_by_class_name("lA")
+                lo = record.find_element_by_class_name("lO")
+                laContent = la.text.replace("[lat: ", "")
+                loContent = lo.text.replace("long: ", "")
+                ocurrence["lat"] = laContent
+                ocurrence["long"] = loContent
+            except:
+                ocurrence["lat"] = None
+                ocurrence["long"] = None
+
+            try:
+                collector = record.find_element_by_class_name("cL")
+                ocurrence["collector"] = collector.text
+            except:
+                ocurrence["collector"] = None
+
+            try:
+                country = record.find_element_by_class_name("lC")
+                ocurrence["country"] = country.text
+            except:
+                ocurrence["country"] = None
+
+            try:
+                state = record.find_element_by_class_name("lS")
+                ocurrence["state"] = state.text
+            except:
+                ocurrence["state"] = None
+
+            try:
+                local = record.find_element_by_class_name("lP")
+                ocurrence["local"] = local.text
+            except:
+                ocurrence["local"] = None
+
+            try:
+                date = record.find_element_by_class_name("cY")
+                ocurrence["date"] = date.text
+            except:
+                ocurrence["date"] = None
+            occurences.append(ocurrence)
+        try:
+            driver.find_element_by_xpath(
+                '//img[@src="imgs/next_icon.png" and @title="próxima página"]').click()
+        except Exception as ex:
+            break
+
+    return occurences
+
+
+def get_data(species):
     driver = get_driver()
-    crawl_all_species(driver)
+    ocurrences = crawl_all_species(driver, species)
+    driver.close()
+
+    return ocurrences
 
 
-get_data()
+if __name__ == "__main__":
+    print(get_data(["Dicliptera ciliaris", "Dyschoriste maranhonis", "Hygrophila costata"]))

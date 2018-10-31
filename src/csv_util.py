@@ -82,7 +82,7 @@ def saveSheet(species):
             worksheet.write(row, 2, specie["florabrasil"] if specie.__contains__(
                 "florabrasil") else "")
             worksheet.write(row, 3, obs_flora)
-            worksheet.write(row, 4, specie["status_florabrasil"]
+            worksheet.write(row, 4, specie["status_plantlist"]
                             if specie["status_plantlist"] != "nao_encontrado" else "")
             worksheet.write(row, 5, specie["plantlist"] if specie.__contains__(
                 "plantlist") else "")
