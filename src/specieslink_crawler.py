@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from contextlib import contextmanager
 import time
+from util import remove_author
 
 url = "http://inct.splink.org.br/"
 
@@ -45,10 +46,11 @@ def get_driver():
 
 
 def search_specie(driver, specie):
+    print(specie)
     driver.find_element_by_id('searchFormCall').click()
     inputField = driver.find_element_by_name('ts_any')
     inputField.clear()
-    inputField.send_keys(specie)
+    inputField.send_keys(remove_author(specie))
     driver.find_element_by_xpath("//input[@value='buscar']").click()
 
 

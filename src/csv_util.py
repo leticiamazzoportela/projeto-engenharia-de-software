@@ -3,6 +3,7 @@ import json
 import os
 import xlsxwriter
 import io
+from util import normalize_str
 
 DIRNAME = os.path.dirname(__file__)
 
@@ -43,7 +44,7 @@ def saveSheet(species):
             flora_plant = ""
             obs_flora = ""
             obs_plantlist = ""
-            
+
             # check flora x plant
             if (specie.__contains__("florabrasil") and specie.__contains__("plantlist") and specie["florabrasil"] != "" and specie["plantlist"] != ""):
                 name_plantlist = specie["plantlist"].split(
@@ -52,18 +53,20 @@ def saveSheet(species):
                     " ")[0] + " " + specie["florabrasil"].split(" ")[1]
 
                 flora_plant = "diferente" if name_plantlist != name_florabrasil else ""
-            
-            if (specie.__contains__("florabrasil") and specie["florabrasil"] != "" and specie["florabrasil"] != specie["nome"]):
+
+            if (specie.__contains__("florabrasil") and
+                    specie["florabrasil"] != "" and
+                    normalize_str(specie["florabrasil"]) != normalize_str(specie["nome"])):
                 nome_tokens = specie["nome"].split(" ")
                 flora_token = specie["florabrasil"].split(" ")
 
-                if (nome_tokens[0] != flora_token[0]):
+                if (normalize_str(nome_tokens[0]) != normalize_str(flora_token[0])):
                     obs_flora = "Genero Diferente"
-                elif (nome_tokens[1] != flora_token[1]):
+                elif (normalize_str(nome_tokens[1]) != normalize_str(flora_token[1])):
                     obs_flora = "Especie Diferente"
                 else:
                     obs_flora = "Autor Diferente"
-            
+
             if (specie.__contains__("plantlist") and specie["plantlist"] != "" and specie["plantlist"] != specie["nome"]):
                 nome_tokens = specie["nome"].split(" ")
                 plantlist_token = specie["plantlist"].split(" ")
@@ -74,7 +77,6 @@ def saveSheet(species):
                     obs_plantlist = "Especie Diferente"
                 else:
                     obs_plantlist = "Autor Diferente"
-
 
             worksheet.write(row, 0, specie["nome"])
             worksheet.write(row, 1, specie["status_florabrasil"]
