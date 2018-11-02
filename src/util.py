@@ -19,6 +19,13 @@ def get_list_of_valid_names(species):
 
     return species_list
 
+def get_list_flora_names(species):
+    species_list = []
+    for specie in species:
+        if (specie["status_florabrasil"] != "nao_encontrado" and specie.__contains__("florabrasil")):
+            species_list.append(specie["florabrasil"])
+    return species_list
+
 def remove_author(specie):
     specie_token = specie.split(" ")
     return specie_token[0] + " " + specie_token[1]
