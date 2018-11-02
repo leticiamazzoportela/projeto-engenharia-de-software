@@ -43,9 +43,9 @@ if __name__ == "__main__":
     import json
     import util
 
-    valid_names = json.loads(open("validname.json").read())
+    valid_names = json.loads(open("data/validname.json").read())
     # valid_names = util.get_list_of_valid_names(plantlist_data)
 
     occurrences = getOccurrences(valid_names)
-    with open('src/data/saida_gbif.json', 'w') as f:
+    with open('data/saida_gbif.json', 'w') as f:
             json.dump(occurrences, f)

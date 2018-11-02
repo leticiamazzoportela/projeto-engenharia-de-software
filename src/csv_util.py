@@ -11,7 +11,7 @@ DIRNAME = os.path.dirname(__file__)
 def readInput():
     nomes = []
 
-    with open(os.path.join(DIRNAME, 'ListaMacrofitas.csv'), 'r') as arquivo:
+    with open(os.path.join('ListaMacrofitas.csv'), 'r') as arquivo:
         reader = csv.reader(arquivo)
         for linha in reader:
             nomes.append(linha[0])
@@ -148,5 +148,6 @@ if __name__ == "__main__":
     #         "plantlist": "plant list"
     #     }
     # ])
-    data = json.loads(open("src/data/floraData.json").read())
-    save_flora_sheet(data)
+    # data = json.loads(open("data/floraData.json").read())
+    # save_flora_sheet(data)
+    print(readInput())

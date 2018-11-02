@@ -1,0 +1,36 @@
+[
+  {
+    "status_florabrasil": "sinonimo",
+    "nome": "Echinodorus bolivianus (Rusby) Hom-Niels",
+    "florabrasil": "Helanthium bolivianum (Rusby) Lehtonen & Myllys"
+  },
+  {
+    "status_florabrasil": "nao_encontrado",
+    "nome": "Echinodorus cordifolius (L.) Griseb. "
+  },
+  {
+    "status_florabrasil": "",
+    "nome": "Echinodorus floribundus (Seub.) Seub.",
+    "florabrasil": "Echinodorus floribundus (Seub.) Seub."
+  },
+  {
+    "status_florabrasil": "",
+    "nome": "Echinodorus glandulosus Rataj",
+    "florabrasil": "Echinodorus glandulosus Rataj"
+  },
+  {
+    "status_florabrasil": "",
+    "nome": "Echinodorus grandiflorus (Cham. & Schltdl.) Micheli",
+    "florabrasil": "Echinodorus grandiflorus (Cham. & Schltr.) Micheli"
+  },
+  {
+    "status_florabrasil": "",
+    "nome": "Echinodorus grisebachii Small",
+    "florabrasil": "Echinodorus grisebachii Small"
+  },
+  {
+    "status_florabrasil": "",
+    "nome": "Echinodorus lanceolatus Rataj",
+    "florabrasil": "Echinodorus lanceolatus Rataj"
+  }
+]
