@@ -1,31 +1,30 @@
 from pygbif import occurrences
 import json
+import util
+
 
 def getOccurrences(plantsName):
-    occurrences_output = []
-    i = 0
-    index = ['decimalLatitude', 'decimalLongitude', 'eventDate', 'country', 'stateProvince', 'locality']
+    occurrences_output = {}
+    index = ['decimalLatitude', 'decimalLongitude',
+        'eventDate', 'country', 'stateProvince', 'locality']
 
     for plantName in plantsName:
-        occurrences_plant = occurrences.search(scientificName=plantName, continent = 'south_america')
+        print(plantName)
+        occurrences_plant = occurrences.search(
+            scientificName=util.remove_author(plantName), continent='south_america')
+        occurrences_list = []
+        if (occurrences_plant.__contains__('count')):
+            for result in occurrences_plant['results']:
+                occurrence = {}
+                for item in index:
+                    if result and result.__contains__(item):
+                        occurrence[item] = result[item]
+                    else:
+                        occurrence[item] = ''
 
-        occurrences_data   = {}
-        occurrences_data['nome_planta']    = plantName
-        occurrences_data['qtd_ocorencias'] = occurrences_plant['count']
-        
-        while i < occurrences_plant['count']:
-            for item in enumerate(index):
-                if item in occurrences_plant['results'][i].keys():
-                    occurrences_data[item]  = occurrences_plant['results'][i][item]
-                else:        
-                    occurrences_data[item]  = 'Nada consta'
+                occurrences_list.append(occurrence)
 
-            occurrences_data   = {}
-            occurrences_data['qtd_ocorencias'] = occurrences_plant['count']
-            occurrences_data['nome_planta']    = plantName
-            
-            i = i + 1
-            occurrences_output.append(occurrences_data)
+        occurrences_output[plantName] = occurrences_list
 
     return occurrences_output
 
@@ -41,8 +40,12 @@ if __name__ == "__main__":
     #     # "Echinodorus grisebachii Small",
     #     # "Echinodorus lanceolatus Rataj",
     # ]), indent = 4))
+    import json
+    import util
 
-    with open('saida_gbif.json', 'w') as f:
-            json.dump(getOccurrences([
-                "Echinodorus bolivianus (Rusby) Hom-Niels",
-                "Echinodorus floribundus (Seub.) Seub."]), f, indent=4)
+    valid_names = json.loads(open("validname.json").read())
+    # valid_names = util.get_list_of_valid_names(plantlist_data)
+
+    occurrences = getOccurrences(valid_names)
+    with open('src/data/saida_gbif.json', 'w') as f:
+            json.dump(occurrences, f)
