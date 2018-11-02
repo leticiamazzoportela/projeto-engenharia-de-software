@@ -1,0 +1,925 @@
+{
+  "Echinodorus bolivianus (Rusby) Hom-Niels": [
+    {
+      "decimalLatitude": -6.303056,
+      "decimalLongitude": -50.461389,
+      "eventDate": "2012-04-26T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Par\u00e1",
+      "locality": "Cana\u00e3 dos Caraj\u00e1s"
+    },
+    {
+      "decimalLatitude": -17.6873,
+      "decimalLongitude": -50.0803,
+      "eventDate": "2012-08-16T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Goi\u00e1s",
+      "locality": "Fazenda Canad\u00e1 (VEFCBJ)"
+    },
+    {
+      "decimalLatitude": -17.721944,
+      "decimalLongitude": -50.079722,
+      "eventDate": "2012-10-10T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Goi\u00e1s",
+      "locality": "Fazenda Canad\u00e1 (CUFCFB)"
+    },
+    {
+      "decimalLatitude": -17.7792,
+      "decimalLongitude": -50.1022,
+      "eventDate": "2012-10-04T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Goi\u00e1s",
+      "locality": "Fazenda Tupi (CUFPAA)"
+    },
+    {
+      "decimalLatitude": -17.678889,
+      "decimalLongitude": -50.096944,
+      "eventDate": "2012-10-08T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Goi\u00e1s",
+      "locality": "Fazenda Canad\u00e1 (CUFCBA)"
+    },
+    {
+      "decimalLatitude": -27.75638,
+      "decimalLongitude": -57.26,
+      "eventDate": "2003-11-22T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "Corrientes",
+      "locality": "Loreto. Camping Municipal"
+    },
+    {
+      "decimalLatitude": -15.65139,
+      "decimalLongitude": -44.63278,
+      "eventDate": "2002-05-17T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Minas Gerais",
+      "locality": "Janu\u00e1ria; distito de Tejuco, Margens do Rio Pandeiros"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "2001-05-07T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Es",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "2000-10-31T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Es",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": -28.03333,
+      "decimalLongitude": -57.55,
+      "eventDate": "2000-11-02T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "Corrientes",
+      "locality": "7 km de San Miguel, camino a laguna Ipacarap\u00e1"
+    },
+    {
+      "decimalLatitude": -27.13333,
+      "decimalLongitude": -53.9,
+      "eventDate": "1999-05-08T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "Misiones",
+      "locality": "Orilla Arroyo Yabot\u00ed"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1999-11-23T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "Corrientes",
+      "locality": "Canal de acceso a la laguna Galarza"
+    },
+    {
+      "decimalLatitude": -17.62,
+      "decimalLongitude": -63.12,
+      "eventDate": "1998-05-15T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "NE side of Viru-Viru Pampa and property of Aeropuerto Internacional, along road to Chuch\u00c3\u00ado, 4.5 km E of turnoff from highway from Santa Cruz to Warnes on road to Chuch\u00c3\u00ado."
+    },
+    {
+      "decimalLatitude": -14.71667,
+      "decimalLongitude": -61.15,
+      "eventDate": "1998-06-20T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Prov. Velasco; road from campamento at La Toledo towards Bahia Toledo"
+    },
+    {
+      "decimalLatitude": -17.79528,
+      "decimalLongitude": -63.25917,
+      "eventDate": "1998-07-28T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Prov. Andres Iba\u00f1ez; Curichi N.W. of the  R\u00edo Piray, adjacent to the gaseoducto"
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1997-08-19T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "Rio Guapor\u00e9, entre Vila Bela e a Barra do Jacar\u00e9"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1997-08-19T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "Rio Guapor\u00e9, entre Vila Bela e Barra do Sarar\u00e9 (mun. Vila Bela da Sma. Trindade)"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1996-02-13T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Minas Gerais",
+      "locality": "Jaiba; Lagoa do Sossego"
+    },
+    {
+      "decimalLatitude": -18.133333,
+      "decimalLongitude": -63.65,
+      "eventDate": "1996-07-17T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Laguna Volcan. Located S.W. of Estancia Angostura, above the road to Santa Cruz."
+    },
+    {
+      "decimalLatitude": -14.69389,
+      "decimalLongitude": -61.14083,
+      "eventDate": "1996-08-11T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Prov. Velasco; ca. 4 km NE of the compound at La Toledo"
+    },
+    {
+      "decimalLatitude": -14.69388,
+      "decimalLongitude": -61.14138,
+      "eventDate": "1996-08-11T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "A large, horseshoe-shaped curichi; ca. 4 km NE of the compound at La Toledo."
+    },
+    {
+      "decimalLatitude": -14.7025,
+      "decimalLongitude": -61.14055,
+      "eventDate": "1996-08-10T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Savanna: ca. 2-3 km NE of the buildings at La Toledo."
+    },
+    {
+      "decimalLatitude": -16.11666,
+      "decimalLongitude": -62.01666,
+      "eventDate": "1996-08-20T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Wetland; o.5 km NE of Concepci\u00f3n, on the road towards San Ignacio. The front half of the system is dominated by Pontederia cordata. The back half contains a large pond, with a floating mat dominated by Eleocharis."
+    },
+    {
+      "decimalLatitude": -14.7,
+      "decimalLongitude": -61.13334,
+      "eventDate": "1996-08-10T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Prov. Velasco; ca. 4 km NE of the compound at La Toledo"
+    },
+    {
+      "decimalLatitude": -16.13056,
+      "decimalLongitude": -62.01667,
+      "eventDate": "1996-08-20T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Prov. Nuflo de Chavez; ca. 0.5 km NE of Concepci\u00f3n"
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1996-11-08T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "Rod. BR-070, C\u00f3rrego Pita"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1996-11-08T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "Rod. BR-070, C\u00f3rrego Pita (mun. Porto Esperidi\u00e3o)"
+    },
+    {
+      "decimalLatitude": -29.0,
+      "decimalLongitude": -58.0,
+      "eventDate": "1995-03-08T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "Corrientes",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1995-04-27T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": -28.083333,
+      "decimalLongitude": -56.666667,
+      "eventDate": "1995-04-27T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "",
+      "locality": "Corrientes. Dep. Santo. Tome. Ruta 41, Galarza. Reserva Natural Provincial del Ibera, Laguna Galarza."
+    },
+    {
+      "decimalLatitude": 2.47222,
+      "decimalLongitude": -72.69166,
+      "eventDate": "1995-11-11T00:00:00.000+0000",
+      "country": "Colombia",
+      "stateProvince": "Guaviare",
+      "locality": "Mpio. de San Jos\u00e9 del Guaviare. Resguardo ind\u00edgena de la comunidad Tucano de Panor\u00e9, a 5 min. del centro SINCHI en cananguchal, con alta presencia de Mauritia flexuosa, altamente intervenido"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1995-01-01T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "Corrientes",
+      "locality": "Ruta 41. Galarza. Reserva Natural Provincial del Ibera, Laguna Galarza. En embalsado, costa suroeste, y al borde del canal de acceso a la laguna (baleton)"
+    },
+    {
+      "decimalLatitude": 2.82,
+      "decimalLongitude": -59.52,
+      "eventDate": "1994-01-13T00:00:00.000+0000",
+      "country": "Guyana",
+      "stateProvince": "",
+      "locality": "Rupununi. Dadanawa"
+    },
+    {
+      "decimalLatitude": -16.55,
+      "decimalLongitude": -58.466667,
+      "eventDate": "1994-09-10T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "San Matias, Pantanal Boliviano. Muestreo en un madrejon o curichi. Estancia cascabel, a 150 m E de la casa. Bosque dominado por plantas pir\u00f3fitas, de tallos tortuosos y corteza gruesa. Suelos fangosos con arcilla, limo y arena, material \u00f3rganico y taninos en suspenci\u00f3n."
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1992-06-15T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Santa Catarina",
+      "locality": "Praia da Joaquina, Ilha de Santa Catarina"
+    },
+    {
+      "decimalLatitude": -25.524186680362146,
+      "decimalLongitude": -48.50974439390427,
+      "eventDate": "1992-08-31T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Paran\u00c3\u00a1",
+      "locality": "Balne\u00c3\u00a1rio Ipanema"
+    },
+    {
+      "decimalLatitude": 2.83333,
+      "decimalLongitude": -59.41666,
+      "eventDate": "1991-01-18T00:00:00.000+0000",
+      "country": "Guyana",
+      "stateProvince": "Rupununi",
+      "locality": "Dadanawa, Tawatawun Mountain. Near pond."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1991-03-19T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "Amambay",
+      "locality": "Estancia Carmen de la Sierra Potrero a al SO de la Administraci\u00f3n."
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1991-05-22T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Santa Catarina",
+      "locality": "Praia da Joaquina, Ilha de Santa Catarina."
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1991-05-22T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Sc",
+      "locality": "Entre as dunas da Praia da Joaquina"
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1991-08-31T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Paran\u00e1",
+      "locality": "Balne\u00e1rio Ipanema"
+    },
+    {
+      "decimalLatitude": -26.05,
+      "decimalLongitude": -56.83333,
+      "eventDate": "1989-01-15T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "Paraguar\u00ed",
+      "locality": "Parque Nacional Ybycu'\u00ed.  Bosque ribere\u00f1o y cauce del arroyo Mina medio-inferior."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1989-09-14T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": -17.883333,
+      "decimalLongitude": -63.1,
+      "eventDate": "1988-06-30T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "Las Lomas de Arena, ca. 6 km al sureste de la Refineria El Palmar (ca. 16 km al sureste de Santa Cruz). Sabana sobre arena con dunas activas."
+    },
+    {
+      "decimalLatitude": -21.4,
+      "decimalLongitude": -46.28333,
+      "eventDate": "1987-09-07T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Minas Gerais",
+      "locality": "Mata Hygrophila 5, Fazenda Queimada Grande.  Mun. Monte Belo, brejo"
+    },
+    {
+      "decimalLatitude": -21.4,
+      "decimalLongitude": -46.28333,
+      "eventDate": "1987-09-07T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Minas Gerais",
+      "locality": "Mata Hygrophila 5, Fazenda Queimada Grande. Municipio Monte Belo, brejo."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1987-11-22T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "S\u00e3o Paulo",
+      "locality": "Near Cargo do Meio, Mun. de Tanabi, 50 km NW from S\u00e3o Jos\u00e9 do Rio Preto. On open swampy ground."
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1986-07-27T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "Rodovia Transpantaneira, Km 111"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1986-11-13T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "Alto Paran\u00e1",
+      "locality": "Reserva biol\u00f3gica Tati Yupi"
+    },
+    {
+      "decimalLatitude": -0.51666,
+      "decimalLongitude": -76.4,
+      "eventDate": "1985-01-24T00:00:00.000+0000",
+      "country": "Ecuador",
+      "stateProvince": "Napo",
+      "locality": "Laguna A\u00f1angu, N side, black water swamp community, dominated by Montrichardia and tall Cyperaceae."
+    },
+    {
+      "decimalLatitude": -0.52,
+      "decimalLongitude": -76.4,
+      "eventDate": "1985-01-24T00:00:00.000+0000",
+      "country": "Ecuador",
+      "stateProvince": "Napo",
+      "locality": "Laguna A\u00f1angu, N side"
+    },
+    {
+      "decimalLatitude": -0.516,
+      "decimalLongitude": -76.4,
+      "eventDate": "1985-01-24T00:00:00.000+0000",
+      "country": "Ecuador",
+      "stateProvince": "Napo",
+      "locality": "Laguna A\u00f1angu, N side, black water swamp community, dominated by Montrichardia and tall Cyperaceae."
+    },
+    {
+      "decimalLatitude": -17.5,
+      "decimalLongitude": -61.5,
+      "eventDate": "1985-09-13T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": -16.05,
+      "decimalLongitude": -62.033333,
+      "eventDate": "1985-09-13T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "",
+      "locality": "Santa Cruz, Nuflo de Chavez, Est. Las Madres 15km N Concepci\u00f3n, near Laguna 480m."
+    },
+    {
+      "decimalLatitude": -16.05,
+      "decimalLongitude": -62.033333,
+      "eventDate": "1985-09-13T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "",
+      "locality": "Santa Cruz, Nuflo de Chavez, Est. Las Madres 15km N Concepci\u00f3n, near Laguna 480m."
+    },
+    {
+      "decimalLatitude": -11.183333,
+      "decimalLongitude": -50.73,
+      "eventDate": "1985-10-08T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "\"Lake 2 Km NW of Luciara. Cerrad\u00e3o forest and marsh; edge of marsh.\""
+    },
+    {
+      "decimalLatitude": -11.18,
+      "decimalLongitude": -50.73,
+      "eventDate": "1985-10-08T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "Lake 2 km NW of Luciara."
+    },
+    {
+      "decimalLatitude": -14.81666,
+      "decimalLongitude": -66.41666,
+      "eventDate": "1985-11-18T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Beni",
+      "locality": "Estancia El Porvenir, 50 km E of the R\u00edo Maniqui (San Borja) on the road to Trinidad. Forest islands and savannas."
+    },
+    {
+      "decimalLatitude": -14.81666,
+      "decimalLongitude": -66.41666,
+      "eventDate": "1985-11-18T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Beni",
+      "locality": "Estancia El Porvenir, 50 km E of the R\u00edo Maniqui (San Borja) on the road to Trinidad. Forest islands and savannas."
+    },
+    {
+      "decimalLatitude": -14.816667,
+      "decimalLongitude": -66.416667,
+      "eventDate": "1985-11-18T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "",
+      "locality": "Dpto. Beni; Prov. Ballivian. Estancia El Porvenir, 50 km E of the Rio Maniqui (San Borja) on the road to Trinidad. Forest islands and savannas."
+    },
+    {
+      "decimalLatitude": -24.283333,
+      "decimalLongitude": -54.666667,
+      "eventDate": "1984-02-15T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "Canindey\u00fa",
+      "locality": "15 km SE of Katuet\u00e9. Isolated pond in middle of cultivated field. Soil sandy around pond but red clay in field. Pond dominated by grasses with a zone of agricultural weeds next to soy bean field."
+    },
+    {
+      "decimalLatitude": -25.93218958829639,
+      "decimalLongitude": -49.19949458589886,
+      "eventDate": "1981-11-04T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Paran\u00c3\u00a1",
+      "locality": "Rib. do Taboado"
+    },
+    {
+      "decimalLatitude": 6.66666,
+      "decimalLongitude": -67.5,
+      "eventDate": "1979-02-24T00:00:00.000+0000",
+      "country": "Venezuela, Bolivarian Republic of",
+      "stateProvince": "Apure",
+      "locality": "Distrito Pedro Camejo; between Ca\u00f1o La Guardia and the R\u00edo Cinaruco. Small lake (among savanna-covered sand dunes) with Eleocharis elegans dominant and surrounded on 3 sides by a low gallery forest."
+    },
+    {
+      "decimalLatitude": -17.483333,
+      "decimalLongitude": -39.216667,
+      "eventDate": "1977-01-16T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "",
+      "locality": "Estado da Bahia. Coastal Zone. On the coast road between Alcoba\u00e7a and Prado 12km N. of Alcoba\u00e7a."
+    },
+    {
+      "decimalLatitude": -17.48,
+      "decimalLongitude": -39.22,
+      "eventDate": "1977-01-16T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Bahia",
+      "locality": "On the coast road between Alcoba\u00c3\u00a7a and Prado. 12 km N of Alcoba\u00c3\u00a7a. Alt ca. sea level"
+    },
+    {
+      "decimalLatitude": -19.46,
+      "decimalLongitude": -42.36,
+      "eventDate": "1975-09-20T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Minas Gerais",
+      "locality": "Parque Estadual do Rio Doce."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1974-12-17T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "Corrientes",
+      "locality": "Carambola"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1973-08-04T00:00:00.000+0000",
+      "country": "Peru",
+      "stateProvince": "",
+      "locality": "Departamento de Loreto. Rio Javari, behind Angamo Garrison"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1972-02-21T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "Corrientes",
+      "locality": "Wet ground. Carambola."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1972-02-21T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "",
+      "locality": "Prov. Corrientes."
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1972-02-21T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1972-02-21T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "",
+      "locality": "Prov. Corrientes."
+    },
+    {
+      "decimalLatitude": -27.28700095281989,
+      "decimalLongitude": -50.58489958789636,
+      "eventDate": "1971-11-29T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Santa Catarina",
+      "locality": "14 km north of Curitibanos"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1971-11-13T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "",
+      "locality": "Lugar \u00famido na restinga atras das dunas primarias."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1971-12-05T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "",
+      "locality": "Estr. Palmas-Ponte Serrada (Mun. Palmas) Parana, Orla de brejo."
+    },
+    {
+      "decimalLatitude": 0.0,
+      "decimalLongitude": 0.0,
+      "eventDate": "1971-12-05T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Paran\u00e1",
+      "locality": "Estrada Palmas-Ponte Serrada"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1971-12-05T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Paran\u00e1",
+      "locality": "Estr. Palmas-Ponte Serrada (mun. Palmas)."
+    },
+    {
+      "decimalLatitude": -20.445980832715293,
+      "decimalLongitude": -54.86124793509369,
+      "eventDate": "1970-08-13T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso do Sul",
+      "locality": "Cachoeir\u00c3\u00a3o."
+    },
+    {
+      "decimalLatitude": -12.356739,
+      "decimalLongitude": -52.35239,
+      "eventDate": "1968-09-24T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "By Sui\u00c3\u00a1 Missu Ferry c. 40 km N.W. of base camp."
+    },
+    {
+      "decimalLatitude": -12.816667,
+      "decimalLongitude": -51.766667,
+      "eventDate": "1968-09-24T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "",
+      "locality": "Central Brazilian Plateau. State of Mato Grosso. Expedition Base Camp. By the Sui\u00e1 Missu Ferry c. 40 km N.W. of base camp."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1967-10-08T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "",
+      "locality": "Estancia 'Carumbe' Distr. Lima Dep. San Pedro."
+    },
+    {
+      "decimalLatitude": -14.92,
+      "decimalLongitude": -52.32,
+      "eventDate": "1966-06-12T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "Ca. 30 km. S. of Xavantina.  Drainage of the Upper Rio Araguaia."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1966-06-12T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "",
+      "locality": "The Planalto do Brasil. Drainage of the upper Rio Araguaia, Estado de Mato Grosso. ca. 30 km S. of Xavantina, Mato Grosso."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1966-06-12T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso",
+      "locality": "Rooted in mud, shallow pool. Periodically flooded campo, ca 30 km. S. of Xavantina."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1966-01-01T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Mato Grosso do Sul",
+      "locality": "Barra do Gar\u00e7as - Xavantina road, 25 km from Xavantina. Marshy ground at edge of ponds."
+    },
+    {
+      "decimalLatitude": -15.72,
+      "decimalLongitude": -47.88,
+      "eventDate": "1965-09-18T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Distrito Federal",
+      "locality": "Rio Torto, immediately N. of Bras\u00c3\u00adlia"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1965-09-18T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "",
+      "locality": "The Planalto do Brasil. Distrito Federal. Gallery forest and adjacent marshy campo, Rio Torto, immediately N. of Bras\u00edlia, D.F."
+    },
+    {
+      "decimalLatitude": -6.33333,
+      "decimalLongitude": -77.4,
+      "eventDate": "1963-08-07T00:00:00.000+0000",
+      "country": "Peru",
+      "stateProvince": "Amazonas",
+      "locality": "Mendoza. Low forests of the eastern slopes of the Andes, mountains and hills covered with grasses, shrubs and low trees.  Higher up there stretch true forests, trees of larger size and thickets too shady to produce flowering herbs."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1960-09-03T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "S\u00c3\u00a3o Paulo",
+      "locality": "\"Campos das Sete Lag\u00c3\u00b4as\". Fazenda campininha, just north of Rio Moji-Gua\u00c3\u00a7u. 3.6 km NNW of PADUA SALES (about 27 km. NW of city of MOJI-MIRIM.)"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1960-09-03T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "S\u00c3\u00a3o Paulo",
+      "locality": "\"Campos das Sete Lag\u00c3\u00b4as\". Fazenda campininha, just north of Rio Moji-Gua\u00c3\u00a7u. 3.6 km NNW of PADUA SALES (about 27 km. NW of city of MOJI-MIRIM.)"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1960-09-03T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "S\u00c3\u00a3o Paulo",
+      "locality": "\"Campos das Sete Lag\u00c3\u00b4as\". Fazenda campininha, just north of Rio Moji-Gua\u00c3\u00a7u. (about 27 km. NW of city of MOJI-MIRIM.)"
+    },
+    {
+      "decimalLatitude": -27.28700095281989,
+      "decimalLongitude": -50.58489958789636,
+      "eventDate": "1956-12-05T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Santa Catarina",
+      "locality": "Mun. Curitibanos and Campos Novos: west of Curitibanos toward Campos Novos"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1952-11-08T00:00:00.000+0000",
+      "country": "Bonaire, Sint Eustatius and Saba",
+      "stateProvince": "",
+      "locality": "Bonairensis. W. van Jatoe Bacoe, bij dam."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1952-11-08T00:00:00.000+0000",
+      "country": "Bonaire, Sint Eustatius and Saba",
+      "stateProvince": "",
+      "locality": "Bonairensis, W. van Jatoe Bacoe, bij dam."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1949-09-07T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "Minas Gerais",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1944-01-30T00:00:00.000+0000",
+      "country": "Argentina",
+      "stateProvince": "",
+      "locality": "Prov. de Corrientes, Dep. Ituzaing\u00f3. Ituzaig\u00f3: Esteros del Iber\u00e1."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1944-02-12T00:00:00.000+0000",
+      "country": "Colombia",
+      "stateProvince": "",
+      "locality": "Costa del Pac\u00edfico; Isla del Guayabal, en la desembocadura del r\u00edo Cajambre."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1937-10-25T00:00:00.000+0000",
+      "country": "Guyana",
+      "stateProvince": "Rupununi",
+      "locality": "Basin of of Rupununi River: Wichabai. Savanna."
+    },
+    {
+      "decimalLatitude": -5.83333,
+      "decimalLongitude": -76.6,
+      "eventDate": "1933-01-01T00:00:00.000+0000",
+      "country": "Peru",
+      "stateProvince": "Loreto",
+      "locality": "Balsapuerto."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1931-05-01T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1921-10-25T00:00:00.000+0000",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "",
+      "locality": "On the margin of a lake (Laguna Reyes) near Reyes"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1918-01-11T00:00:00.000+0000",
+      "country": "Colombia",
+      "stateProvince": "Antioquia",
+      "locality": "Puerto Berrio"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1913-01-01T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "Central",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": -23.236211,
+      "decimalLongitude": -58.391024,
+      "eventDate": "1913-01-01T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1913-01-01T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "Cordillera",
+      "locality": "Paraguaria centralis: in regione lacus Ypacaray"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1905-01-01T00:00:00.000+0000",
+      "country": "Paraguay",
+      "stateProvince": "Itap\u00faa",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "1840-01-01T00:00:00.000+0000",
+      "country": "Brazil",
+      "stateProvince": "",
+      "locality": "Minas geraes"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "",
+      "country": "Paraguay",
+      "stateProvince": "",
+      "locality": ""
+    },
+    {
+      "decimalLatitude": -17.74166,
+      "decimalLongitude": -63.2,
+      "eventDate": "",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "The plain around Santa Cruz that is bound by the 700 m contour of the Andean foothills to the west, and the R\u00edo Grande to the east"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "",
+      "country": "Paraguay",
+      "stateProvince": "Canindey\u00fa",
+      "locality": "Nearest Named Place: Reserva Natural del Bosque de Mbaracay\u00fa; Nearest Named Place: Lagunita"
+    },
+    {
+      "decimalLatitude": 4.02052,
+      "decimalLongitude": -74.918907,
+      "eventDate": "",
+      "country": "Colombia",
+      "stateProvince": "Tolima",
+      "locality": "Mun. de El Guamo: pantano."
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "",
+      "country": "Dominican Republic",
+      "stateProvince": "",
+      "locality": "Domingensis, Prov. de la Vega."
+    },
+    {
+      "decimalLatitude": -17.74166,
+      "decimalLongitude": -63.2,
+      "eventDate": "",
+      "country": "Bolivia, Plurinational State of",
+      "stateProvince": "Santa Cruz",
+      "locality": "The plain around Santa Cruz that is bound by the 700 m contour of the Andean foothills to the west, and the R\u00edo Grande to the east"
+    },
+    {
+      "decimalLatitude": "",
+      "decimalLongitude": "",
+      "eventDate": "",
+      "country": "Brazil",
+      "stateProvince": "Santa Catarina",
+      "locality": "Ararangu\u00e1. Arroio do Gildo, Sombrio"
+    },
+    {
+      "decimalLatitude": -25.45,
+      "decimalLongitude": -56.01666,
+      "eventDate": "",
+      "country": "Paraguay",
+      "stateProvince": "Caaguaz\u00fa",
+      "locality": "Caaguaz\u00fa"
+    }
+  ],
+  "Echinodorus floribundus (Seub.) Seub.": []
+}

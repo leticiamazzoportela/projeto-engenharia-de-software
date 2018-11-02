@@ -10,7 +10,7 @@ Ao final de cada entrega, a branch de desenvolvimento será integrada à branch 
 
 ```
 - src
-   |- Codigo fonte
+   |- Código-Fonte
 
 - PMO
    |- Documentos do projeto
@@ -23,4 +23,4 @@ Esta é responsável por transformar as issues do GitHub em tarefas de desenvolv
 
 Segue o link com instruções para a utilização da ferramenta: https://www.zenhub.com/
 
-Para utilizá-la, basta instalar a extensão no navegador, e estar como colaborador do repositório.
+Para utilizá-la, basta instalar a extensão no navegador e estar como colaborador do repositório.
