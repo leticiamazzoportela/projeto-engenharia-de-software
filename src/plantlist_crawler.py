@@ -36,7 +36,7 @@ def scrap_synonym(section_html, specie):
     firstLink = subtitle.find("a")
     if(firstLink.text == "accepted"):
         specie["status_plantlist"] = ""
-        specie["plantlist"] = title.select_one(".name").text
+        specie["plantlist"] = title.select_one(".name").textz
     elif (firstLink.text == "synonym"):
         accepted_name = subtitle.find("span", class_="name")
         if(accepted_name):

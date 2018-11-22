@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Echinodorus cordifolius (L.) Griseb.",
+    "family": "Alismataceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Alisma cordifolium L.",
+      "Echinodorus cordifolius subsp. cordifolius ",
+      "Echinodorus cordifolius subsp. fluitans (Fassett) R.R.Haynes & Holm-Niels.",
+      "Echinodorus fluitans Fassett",
+      "Echinodorus ovalis C.Wright",
+      "Echinodorus radicans (Nutt.) Engelm.",
+      "Echinodorus schlueteri Rataj",
+      "Sagittaria cordifolia (L.) Lam.",
+      "Sagittaria radicans Nutt."
+    ]
+  },
+  {
+    "name": "Atriplex montevidensis Spreng.",
+    "family": "Amaranthaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Atriplex grisebachii Kurtz ex Gand.",
+      "Atriplex montevidensis f. conferta Hicken",
+      "Obione montevidensis (Spreng.) Moq."
+    ]
+  },
+  {
+    "name": "Atriplex undulata (Moq.) D.Dietr.",
+    "family": "Amaranthaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": ["Obione undulata Moq."]
+  },
+  {
+    "name": "Pfaffia iresinoides (Kunth) Spreng.",
+    "family": "Amaranthaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Alternanthera iresinoides Kunth",
+      "Gomphrena iresinoides (Kunth) Moq.",
+      "Gomphrena iresinoides var. martiana Seub.",
+      "Gomphrena iresinoides var. riedeliana Seub.",
+      "Iresine luzuliflora Griseb.",
+      "Sertuernera iresinoides (Kunth) Mart."
+    ]
+  },
+  {
+    "name": "Colocasia esculenta (L.) Schott",
+    "family": "Araceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Alocasia dussii Dammer",
+      "Alocasia illustris W.Bull",
+      "Aron colocasium (L.) St.-Lag.",
+      "Arum chinense L.",
+      "Arum colocasia L.",
+      "Arum colocasioides Desf.",
+      "Arum esculentum L.",
+      "Arum lividum Salisb.",
+      "Arum nymphaeifolium (Vent.) Roxb.",
+      "Arum peltatum Lam.",
+      "Caladium acre R.Br.",
+      "Caladium colocasia (L.) W.Wight [Illegitimate]",
+      "Caladium colocasioides (Desf.) Brongn.",
+      "Caladium esculentum (L.) Vent.",
+      "Caladium glycyrrhizum Fraser",
+      "Caladium nymphaeifolium Vent.",
+      "Caladium violaceum Desf.",
+      "Caladium violaceum Engl.",
+      "Calla gaby Blanco",
+      "Calla virosa Roxb.",
+      "Colocasia acris (R.Br.) Schott",
+      "Colocasia aegyptiaca Samp.",
+      "Colocasia antiquorum var. acris (R.Br.) Schott",
+      "Colocasia antiquorum f. acuatica Makino",
+      "Colocasia antiquorum var. aquatilis (Hassk.) Engl. & K. Krause",
+      "Colocasia antiquorum f. eguimo Makino",
+      "Colocasia antiquorum var. esculenta (L.) Schott",
+      "Colocasia antiquorum var. euchlora (K.Koch & Linden) Schott",
+      "Colocasia antiquorum var. globulifera Engl. & K.Krause",
+      "Colocasia antiquorum var. illustris (W.Bull) Engl.",
+      "Colocasia antiquorum var. multifolia Makino",
+      "Colocasia antiquorum var. nymphaeifolia (Vent.) Engl.",
+      "Colocasia antiquorum f. oyasetage Makino",
+      "Colocasia antiquorum var. patens Makino",
+      "Colocasia antiquorum f. purpurea Makino",
+      "Colocasia antiquorum var. rosea Makino",
+      "Colocasia antiquorum var. rupicola Haines",
+      "Colocasia antiquorum var. stolonifera Haines",
+      "Colocasia antiquorum f. yamamotoi Makino",
+      "Colocasia colocasia (L.) Huth [Invalid]",
+      "Colocasia esculenta var. acris (R.Br.) A.F.Hill",
+      "Colocasia esculenta var. aquatilis Hassk.",
+      "Colocasia esculenta f. ebiimo Makino",
+      "Colocasia esculenta var. euchlora (K.Koch & Linden) A.F.Hill",
+      "Colocasia esculenta var. globulifera (Engl. & K.Krause) R.A.Young",
+      "Colocasia esculenta var. illustris (W.Bull) A.F.Hill",
+      "Colocasia esculenta var. nymphaeifolia (Kunth) A.F.Hill",
+      "Colocasia esculenta f. rotundifolia Makino",
+      "Colocasia esculenta var. rupicola (Haines) H.B.Naithani",
+      "Colocasia esculenta var. stolonifera (Haines) H.B.Naithani",
+      "Colocasia euchlora K.Koch & Linden",
+      "Colocasia formosana Hayata",
+      "Colocasia gracilis Engl.",
+      "Colocasia himalensis Royle",
+      "Colocasia konishii Hayata",
+      "Colocasia neocaledonica Van Houtte",
+      "Colocasia nymphaeifolia (Vent.) Kunth",
+      "Colocasia peltata (Lam.) Samp.",
+      "Colocasia vera Hassk.",
+      "Colocasia violacea (Desf.) auct.",
+      "Colocasia virosa (Roxb.) Kunth",
+      "Colocasia vulgaris Raf.",
+      "Leucocasia esculenta (L.) Nakai",
+      "Steudnera virosa (Roxb.) Prain",
+      "Zantedeschia virosa (Roxb.) K.Koch"
+    ]
+  },
+  {
+    "name": "Zantedeschia aethiopica (L.) Spreng.",
+    "family": "Araceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Arodes aethiopicum (L.) Kuntze",
+      "Calla aethiopica L.",
+      "Calla ambigua Salisb.",
+      "Calla moschata Moench [Illegitimate]",
+      "Colocasia aethiopica (L.) Link",
+      "Otosma aethiopica (L.) Raf.",
+      "Pseudohomalomena pastoensis A.D.Hawkes",
+      "Richardia aethiopica (L.) Spreng.",
+      "Richardia africana Kunth"
+    ]
+  },
+  {
+    "name": "Enydra sessilis (Sw.) DC.",
+    "family": "Compositae",
+    "hierarchy": "Angiosperms",
+    "synonyms": ["Eclipta sessilis Sw."]
+  },
+  {
+    "name": "Erechtites hieracifolia (L.) Raf.",
+    "family": "Compositae",
+    "hierarchy": "Angiosperms",
+    "synonyms": ["Erechtites hieracifolia var. hieracifolia "]
+  },
+  {
+    "name": "Senecio mattfeldianus Cabrera",
+    "family": "Compositae",
+    "hierarchy": "Angiosperms",
+    "synonyms": ["Senecio sagittifolius Arechav."]
+  },
+  {
+    "name": "Nasturtium officinale R.Br.",
+    "family": "Brassicaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Arabis nasturtium Clairv.",
+      "Baeumerta nasturtium P.Gaertn., B.Mey. & Schreb.",
+      "Baeumerta nasturtium-aquaticum (L.) Hayek",
+      "Cardamine aquatica (Garsault) Nieuwl.",
+      "Cardamine fontana Lam.",
+      "Cardamine nasturtium (Moench) Kuntze",
+      "Cardamine nasturtium-aquaticum (L.) Borb\u00e1s",
+      "Cardaminum nasturtium Moench",
+      "Crucifera fontana E.H.L.Krause",
+      "Nasturtium aquaticum Wahlenb. [Illegitimate]",
+      "Nasturtium fontanum Asch.",
+      "Nasturtium fontanum var. longisiliquum Irmisch",
+      "Nasturtium nasturtium-aquaticum (L.) H. Karst.",
+      "Nasturtium officinale var. officinale ",
+      "Nasturtium siifolium Rchb.",
+      "Nasturtium siifolium Phil. [Illegitimate]",
+      "Radicula nasturtium (Moench) Druce",
+      "Radicula nasturtium-aquaticum (L.) Britten & Rendle",
+      "Rorippa nasturtium (Moench) Beck",
+      "Rorippa nasturtium-aquaticum (L.) Hayek",
+      "Rorippa nasturtium-aquaticum var. longisiliqua (Irmisch) B.Boivin",
+      "Rorippa officinalis (W.T. Aiton) P. Royen",
+      "Sisymbrium nasturtium (Moench) Willd.",
+      "Sisymbrium nasturtium-aquaticum L."
+    ]
+  },
+  {
+    "name": "Eleocharis equisetoides (Elliott) Torr.",
+    "family": "Cyperaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Eleocharis elliottii A.Dietr. [Illegitimate]",
+      "Limnochloa equisetoides (Elliott) Walp.",
+      "Scirpus equisetoides Elliott"
+    ]
+  },
+  {
+    "name": "Equisetum hyemale L.",
+    "family": "Equisetaceae",
+    "hierarchy": "Pteridophytes",
+    "synonyms": [
+      "Equisetum hyemale subsp. hyemale ",
+      "Equisetum praealtum Raf.",
+      "Hippochaete hyemalis (L.) Farw."
+    ]
+  },
+  {
+    "name": "Aeschynomene indica L.",
+    "family": "Leguminosae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Aeschynomene cachemiriana Cambess.",
+      "Aeschynomene diffusa Willd.",
+      "Aeschynomene glaberrima Poir.",
+      "Aeschynomene indica var. punctata Pers.",
+      "Aeschynomene indica var. viscosa Miq.",
+      "Aeschynomene kashmiriana Cambess.",
+      "Aeschynomene macropoda DC.",
+      "Aeschynomene montana Span.",
+      "Aeschynomene oligantha Baker",
+      "Aeschynomene pumila L.",
+      "Aeschynomene punctata Steud.",
+      "Aeschynomene quadrata Schum. & Thonn.",
+      "Aeschynomene quadrata Schumach. & Thonn.",
+      "Aeschynomene roxburghii Spreng.",
+      "Aeschynomene subviscosa DC.",
+      "Aeschynomene viscidula Willd.",
+      "Hedysarum alpinum Lour.",
+      "Hedysarum neli-tali Roxb.",
+      "Hedysarum virginicum Lour.",
+      "Smithia aspera Roxb."
+    ]
+  },
+  {
+    "name": "Aeschynomene virginica (L.) Britton & al.",
+    "family": "Leguminosae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Aeschynomene aspera Willd.",
+      "Aeschynomene hispida Willd.",
+      "Hedysarum virginicum L."
+    ]
+  },
+  {
+    "name": "Hydrilla verticillata (L.f.) Royle",
+    "family": "Hydrocharitaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Elodea verticillata (L.f.) F.Muell.",
+      "Epigynanthus blumei Hassk. [Invalid]",
+      "Hydora lithuanica (Rchb.) Besser",
+      "Hydrilla angustifolia Hassk.",
+      "Hydrilla dentata Casp.",
+      "Hydrilla dentata var. pomeranica (Rchb.) Casp.",
+      "Hydrilla lithuanica (Rchb.) Dandy",
+      "Hydrilla najadifolia Zoll. & Moritzi",
+      "Hydrilla ovalifolia Rich. [Illegitimate]",
+      "Hydrilla polysperma Blatt.",
+      "Hydrilla roxburghii Steud.",
+      "Hydrilla subulata Royle",
+      "Hydrilla verticillata var. brevifolia Casp.",
+      "Hydrilla verticillata var. crispa Casp.",
+      "Hydrilla verticillata var. roxburghii Casp.",
+      "Hydrilla verticillata var. tenuis Casp.",
+      "Hydrilla verticillata var. verticillata ",
+      "Hydrilla wightii Planch.",
+      "Hydrospondylus submersus Hassk.",
+      "Ixia aquatica Muhl. ex Spreng. [Invalid]",
+      "Serpicula verticillata L.f.",
+      "Udora lithuanica Rchb.",
+      "Udora lithuanica Andrz. ex Besser",
+      "Udora occidentalis W.D.J.Koch",
+      "Udora pomeranica Rchb.",
+      "Udora verticillata (L.f.) Spreng.",
+      "Vallisneria verticillata (L.f.) Roxb."
+    ]
+  },
+  {
+    "name": "Hyptis vilis K.Koch & C.D.Bouch\u00e9",
+    "family": "Lamiaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Hyptis rothschuhii Loes.",
+      "Mesosphaerum vile (K.Koch & C.D.Bouch\u00e9) Kuntze"
+    ]
+  },
+  {
+    "name": "Scutellaria minor Huds.",
+    "family": "Lamiaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Cassida minor (Huds.) Gilib. [Invalid]",
+      "Cassida minor (Huds.) Bubani",
+      "Scutellaria hastifolia Ten. ex Steud. [Invalid]",
+      "Scutellaria minor var. elatior Cr\u00e9p.",
+      "Scutellaria pumila Salisb. [Illegitimate]"
+    ]
+  },
+  {
+    "name": "Hibiscus striatus Cav.",
+    "family": "Malvaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Abelmoschus angustifolius (Hook. & Arn.) Walp.",
+      "Abelmoschus cisplatinus (A.St.-Hil.) Walp.",
+      "Hibiscus amoenus Link & Otto",
+      "Hibiscus angustifolius Hook. & Arn.",
+      "Hibiscus argentinus Speg. [Illegitimate]",
+      "Hibiscus cisplatinus A.St.-Hil.",
+      "Hibiscus domingensis var. striatus (Cav.) Willd.",
+      "Hibiscus lindmanii G\u00fcrke",
+      "Hibiscus linearis A.St.-Hil. & Naudin"
+    ]
+  },
+  {
+    "name": "Nymphoides indica (L.) Kuntze",
+    "family": "Menyanthaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Limnanthemum esquirolii H. L\u00e9v.",
+      "Limnanthemum humboldtianum (Kunth) Griseb.",
+      "Limnanthemum humboldtianum var. parviflorum Griseb.",
+      "Limnanthemum indicum (L.) Griseb.",
+      "Limnanthemum senegalense N.E.Br.",
+      "Limnanthemum thunbergianum Griseb.",
+      "Menyanthes indica L.",
+      "Nymphoides humboldtiana (Kunth) Kuntze",
+      "Nymphoides thunbergiana (Griseb.) Kuntze",
+      "Trachysperma humboldtiana (Kunth) House",
+      "Villarsia humboldtiana Kunth",
+      "Villarsia indica (L.) Vent.",
+      "Villarsia senegalensis G. Don"
+    ]
+  },
+  {
+    "name": "Nymphaea alba L.",
+    "family": "Nymphaeaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Castalia alba (L.) Greene",
+      "Castalia minoriflora Simonk.",
+      "Castalia speciosa Salisb.",
+      "Nymphaea alba var. alba ",
+      "Nymphaea alba subsp. minoriflora (Simonk.) Stucchi",
+      "Nymphaea alba var. rubra L\u00f6nnr.",
+      "Nymphaea minoriflora (Simonk.) Wissjul.",
+      "Nymphaea occidentalis Moss"
+    ]
+  },
+  {
+    "name": "Vellosiella dracocephaloides (Vell.) Baill.",
+    "family": "Orobanchaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": []
+  },
+  {
+    "name": "Sesamum indicum L.",
+    "family": "Pedaliaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": [
+      "Dysosmon amoenum Raf.",
+      "Sesamum africanum Tod.",
+      "Sesamum occidentalis Heer & Regel",
+      "Sesamum oleiferum Sm.",
+      "Sesamum orientale L.",
+      "Volkameria orientalis (L.) Kuntze"
+    ]
+  },
+  {
+    "name": "Setaria pauciflora Linden ex Herrm.",
+    "family": "Poaceae",
+    "hierarchy": "Angiosperms",
+    "synonyms": []
+  }
+]

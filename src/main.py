@@ -23,18 +23,18 @@ csv_data = csv_util.readInput()
 # with open('plant_flora.json', 'w') as outfile:
 #     json.dump(plantlist_data, outfile)
 
-plantlist_data = json.loads(open("plant_flora.json").read())
+plantlist_data = json.loads(open("data/plant_flora.json").read())
 
 # print("Salvando CSV")
 # csv_util.saveSheet(plantlist_data)
 
 valid_names = util.get_list_of_valid_names(plantlist_data)
 
-with open('src/data/validname.json', 'w') as outfile:
+with open('data/validname.json', 'w') as outfile:
     json.dump(valid_names, outfile)
 
 
 specieslink =specieslink_crawler.get_data(valid_names)
 
-with open('src/data/specieslink.json', 'w') as outfile:
+with open('data/specieslink.json', 'w') as outfile:
     json.dump(specieslink, outfile)

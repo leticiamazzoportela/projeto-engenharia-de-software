@@ -148,6 +148,6 @@ if __name__ == "__main__":
     #         "plantlist": "plant list"
     #     }
     # ])
-    # data = json.loads(open("data/floraData.json").read())
-    # save_flora_sheet(data)
-    print(readInput())
+    data = json.loads(open("data/floraData.json").read())
+    save_flora_sheet(data)
+    # print(readInput())
