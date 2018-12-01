@@ -17,6 +17,7 @@ def get_driver():
     driver.get(url)
     return driver
 
+
 def crawl_all_species(species):
     ocurrences = {}
     for specie in species:
@@ -24,32 +25,46 @@ def crawl_all_species(species):
         ocurrences[specie] = get_all_occurrences(remove_author(specie))
     return ocurrences
 
+
 def crawl_all_records(records):
     ocurrences = []
     for record in records[1:]:
         ocurrence = {}
-        ocurrence["filo"] = record.find(class_="tP").text.strip() if record.find(class_="tP") else ""
-        ocurrence["familia"] = record.find(class_="tF").text.strip() if record.find(class_="tF") else ""
-        ocurrence["ordem"] = record.find(class_="tO").text.strip() if record.find(class_="tO") else ""
-        ocurrence["genero"] = record.find(class_="tGa").text.strip() if record.find(class_="tGa") else ""
-        ocurrence["especie"] = record.find(class_="tEa").text.strip() if record.find(class_="tEa") else ""
-        ocurrence["classe"] = record.find(class_="tC").text.strip() if record.find(class_="tC") else ""
-        ocurrence["coletor"] = record.find(class_="cL").text.strip() if record.find(class_="cL") else ""
-        ocurrence["lat"] = record.find(class_="lA").text.strip().replace("[lat: ", "") if record.find(class_="lA") else ""
-        ocurrence["long"] = record.find(class_="lO").text.strip().replace("long: ", "") if record.find(class_="lO") else ""
-        ocurrence["pais"] = record.find(class_="lC").text.strip() if record.find(class_="lC") else ""
-        ocurrence["data"] = record.find(class_="cY").text.strip() if record.find(class_="cY") else ""
+        ocurrence["filo"] = record.find(
+            class_="tP").text.strip() if record.find(class_="tP") else ""
+        ocurrence["familia"] = record.find(
+            class_="tF").text.strip() if record.find(class_="tF") else ""
+        ocurrence["ordem"] = record.find(
+            class_="tO").text.strip() if record.find(class_="tO") else ""
+        ocurrence["genero"] = record.find(
+            class_="tGa").text.strip() if record.find(class_="tGa") else ""
+        ocurrence["especie"] = record.find(
+            class_="tEa").text.strip() if record.find(class_="tEa") else ""
+        ocurrence["classe"] = record.find(
+            class_="tC").text.strip() if record.find(class_="tC") else ""
+        ocurrence["coletor"] = record.find(
+            class_="cL").text.strip() if record.find(class_="cL") else ""
+        ocurrence["lat"] = record.find(class_="lA").text.strip().replace(
+            "[lat: ", "") if record.find(class_="lA") else ""
+        ocurrence["long"] = record.find(class_="lO").text.strip().replace(
+            "long: ", "") if record.find(class_="lO") else ""
+        ocurrence["pais"] = record.find(
+            class_="lC").text.strip() if record.find(class_="lC") else ""
+        ocurrence["data"] = record.find(
+            class_="cY").text.strip() if record.find(class_="cY") else ""
         ocurrences.append(ocurrence)
     return ocurrences
-
 
 
 def get_all_occurrences(specie):
     offset = 0
 
-    page = requests.get(BASE_URL + specie + "&offset=" + str(offset))
+    page = requests.post(BASE_URL, data={
+        'ts_genus': specie,
+        'offset': offset
+    })
 
-    soup = BeautifulSoup(page.text, "lxml")
+    soup = BeautifulSoup(str(page.text), "lxml")
 
     items = soup.find(id="div_hint_summary").find_all("ll")
     occurences = []
@@ -60,7 +75,10 @@ def get_all_occurrences(specie):
     while(offset < int(items[2].text)):
         offset += 100
         occurences.append(crawl_all_records(soup.find_all(class_="record")))
-        page = requests.get(BASE_URL + specie + "&offset=" + str(offset))
+        page = requests.post(BASE_URL, data={
+            'ts_genus': specie,
+            'offset': offset
+        })
         soup = BeautifulSoup(page.text, "lxml")
 
     return occurences
@@ -71,4 +89,4 @@ def get_data(species):
 
 
 if __name__ == "__main__":
-    print(get_data(["Cyperus salzmannianus"]))
+    print(get_data(["Cipura paludosa"]))
