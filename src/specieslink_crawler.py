@@ -21,7 +21,7 @@ def get_driver():
 def crawl_all_species(species):
     ocurrences = {}
     for specie in species:
-        print(specie)
+        config.l_plant["text"] = specie
         ocurrences[specie] = get_all_occurrences(remove_author(specie))
     return ocurrences
 

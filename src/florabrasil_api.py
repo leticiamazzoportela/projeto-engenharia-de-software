@@ -5,6 +5,7 @@ import json
 import os
 import io
 import util
+from config import config
 
 DIRNAME = os.path.dirname(__file__)
 
@@ -13,7 +14,7 @@ def getNames(species):
     lista_nomes = []
 
     for specie in species:
-        print(specie)
+        config.l_plant["text"] = specie
         nomes = {}
 
         specie_name = specie.split(" ")
