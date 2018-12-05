@@ -29,6 +29,24 @@ def read_gbif():
     return new_data
     
 
+def read_spicieslink():
+    new_data = {}
+        data = []
+        with open('./data/spicieslink.json') as json_gbif:
+            data = json.load(json_gbif)
+            for plant in data:
+                oc = []
+                for ocurrence in data[plant]:
+                    if(ocurrence['country'].lower() in countrys):
+                        oc.append(ocurrence)
+                    elif(ocurrence['decimalLatitude'] != "" and ocurrence['decimalLongitude'] != ""):
+                        if((float(ocurrence['decimalLatitude'])<= lat[0] and float(ocurrence['decimalLatitude']) >= lat[1]) and (float(ocurrence['decimalLongitude']) <= longt[0] and float(ocurrence['decimalLongitude']) >= longt[1])):
+                            oc.append(ocurrence)
+                    else:
+                        print('não esta na ame. do sul')
+                new_data[plant] = oc
+        return new_data
+
 new_data = read_gbif()
 with open('./data/saida_gbif_validado.json', 'w') as data_file:
     data = json.dump(new_data, data_file)
