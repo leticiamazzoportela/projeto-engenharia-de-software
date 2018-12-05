@@ -4,14 +4,12 @@ import os
 import xlsxwriter
 import io
 from util import normalize_str
-
-DIRNAME = os.path.dirname(__file__)
-
+from config import config
 
 def readInput():
     nomes = []
 
-    with open(os.path.join('ListaMacrofitas.csv'), 'r') as arquivo:
+    with open(config.filename, 'r') as arquivo:
         reader = csv.reader(arquivo)
         for linha in reader:
             nomes.append(linha[0])

@@ -64,7 +64,7 @@ def crawl_all_species(species):
     last_search = ""
     page = None
     for specie in species:
-        print(specie["nome"])
+        config.l_plant["text"] = specie["nome"]
         first_name = specie["nome"].split()[0]
         if(last_search != first_name):
             last_search = first_name

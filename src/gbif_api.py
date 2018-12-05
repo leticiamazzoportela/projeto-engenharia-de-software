@@ -1,6 +1,7 @@
 from pygbif import occurrences
 import json
 import util
+from config import config
 
 
 def getOccurrences(plantsName):
@@ -10,11 +11,11 @@ def getOccurrences(plantsName):
         'eventDate', 'country', 'stateProvince', 'locality']
 
     for plantName in plantsName:
-        print(plantName)
+        config.l_plant["text"] = plantName
         occurrences_plant = occurrences.search(
             scientificName=util.remove_author(plantName), continent='south_america')
         
-        print(json.dumps(occurrences_plant,indent=4))
+        # print(json.dumps(occurrences_plant,indent=4))
         occurrences_list = []
         if (occurrences_plant.__contains__('count')):
             for result in occurrences_plant['results']:

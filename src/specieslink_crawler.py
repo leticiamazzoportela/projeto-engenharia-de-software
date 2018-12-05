@@ -21,7 +21,7 @@ def get_driver():
 def crawl_all_species(species):
     ocurrences = {}
     for specie in species:
-        print(specie)
+        config.l_plant["text"] = specie
         ocurrences[specie] = get_all_occurrences(remove_author(specie))
     return ocurrences
 
@@ -74,7 +74,7 @@ def get_all_occurrences(specie):
 
     while(offset < int(items[2].text)):
         offset += 100
-        occurences.append(crawl_all_records(soup.find_all(class_="record")))
+        occurences += crawl_all_records(soup.find_all(class_="record"))
         page = requests.post(BASE_URL, data={
             'ts_genus': specie,
             'offset': offset

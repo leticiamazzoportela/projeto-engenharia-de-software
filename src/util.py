@@ -1,4 +1,5 @@
 import unidecode
+import json
 
 def normalize(_str):
     if(_str):
@@ -43,11 +44,24 @@ def remove_author(specie):
     specie_token = specie.split(" ")
     return specie_token[0] + " " + specie_token[1]
 
-if __name__ == "__main__":
-    import json
+def check_occurrences():
+    specieslink = json.load(open("data/specieslink.json"))
+    gbif = json.load(open("data/gbif.json"))
 
-    data = json.load(open("data/plant_flora.json"))
-    # print(data)
-    data = get_notfound_plants(data)
-    with open('data/notfound.json', 'w') as outfile:
-        json.dump(data, outfile)
+    for specie in specieslink:
+        occurrences = []
+        for ocurrence in specieslink[specie]:
+            occurrences += ocurrence
+        specieslink[specie] = occurrences
+    
+    with open('data/specieslink.json', 'w') as outfile:
+        json.dump(specieslink, outfile)
+
+if __name__ == "__main__":
+
+    # data = json.load(open("data/plant_flora.json"))
+    # # print(data)
+    # data = get_notfound_plants(data)
+    # with open('data/notfound.json', 'w') as outfile:
+    #     json.dump(data, outfile)
+    check_occurrences()
