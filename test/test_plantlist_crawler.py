@@ -25,7 +25,7 @@ test_caseImput = [
 
 test_caseOutput = [
     {
-        'nome': 'Dicliptera ciliaris Juss.', 'status_plantlist': '', 'plantlist': 'Dicliptera ciliaris Juss.'
+        'nome': 'Dicliptera ciliaris Juss.', 'status_plantlist': '', 'plantlist': None
     },
     {
         'nome': 'Hygrophila angusta', 'status_plantlist': 'Não resolvido', 'plantlist': 'Hygrophila angusta Huber'
