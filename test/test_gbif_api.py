@@ -14,6 +14,13 @@ test_caseImput = [
 test_caseOutput = {
     "Zizaniopsis bonariensis (Balansa & Poitr.) Speg.": [
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": -29.99,
             "decimalLongitude": -51.083333,
             "eventDate": "2006-02-14T00:00:00",
@@ -22,6 +29,13 @@ test_caseOutput = {
             "locality": "."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Matzenbacher, NI",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1996-11-30T00:00:00",
@@ -30,6 +44,13 @@ test_caseOutput = {
             "locality": "Fazenda S\u00e3o Maximiano"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Sara G. Tressens|M. Beccaceci|Ricardo O. Vanni",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1992-12-11T00:00:00",
@@ -38,6 +59,13 @@ test_caseOutput = {
             "locality": "Reserva Nat. Prov. Ibera. Paso Picada. Costa W de la laguna Ibera"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Schwarzbold, A",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1981-02-02T00:00:00",
@@ -46,6 +74,13 @@ test_caseOutput = {
             "locality": "Lagoa Figueira, sul de palmares"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Irgang, BE; et al.",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1981-03-01T00:00:00",
@@ -54,6 +89,13 @@ test_caseOutput = {
             "locality": "Taim"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "R\u00fagolo, Z",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1980-11-02T00:00:00",
@@ -62,6 +104,13 @@ test_caseOutput = {
             "locality": "[...] Las Violetas"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Zulma E. R\u00fagolo de Agrasar",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1980-11-02T00:00:00",
@@ -70,6 +119,13 @@ test_caseOutput = {
             "locality": "Pdo. Gral. Lavalle, Ecia. Las Violetas."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Fern\u00e1ndez",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1978-03-08T00:00:00",
@@ -78,6 +134,13 @@ test_caseOutput = {
             "locality": "Estancia lavalle."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Waechter, JL",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1978-12-04T00:00:00",
@@ -86,6 +149,13 @@ test_caseOutput = {
             "locality": "Esta\u00e7\u00e3o Ecol\u00f3gica do Taim"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Quar\u00edn, C; et al.",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1974-12-06T00:00:00",
@@ -94,6 +164,13 @@ test_caseOutput = {
             "locality": "Santo Tom\u00e9 Galarza"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Valls, JFM; et al.",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1973-12-03T00:00:00",
@@ -102,6 +179,13 @@ test_caseOutput = {
             "locality": "estrada S\u00e3o Pedro do Sul-Jaguari 38 Km ap\u00f3s S\u00e3o Pedro"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Howard S. Irwin|S.F. da Fons\u00eaca|R. Souza|R. Reis dos Santos|J. Ramos",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1970-03-23T00:00:00",
@@ -110,6 +194,13 @@ test_caseOutput = {
             "locality": "River bank. Cut-over slope forest, ca. 15 km N. of S\u00e3o Jo\u00e3o da Chapada."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Burkart, A",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1962-12-09T00:00:00",
@@ -118,6 +209,13 @@ test_caseOutput = {
             "locality": ""
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Troels M. Pedersen",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1961-02-17T00:00:00",
@@ -126,6 +224,13 @@ test_caseOutput = {
             "locality": "\"Estancia, Santa Teresa\"."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "J. da Costa Sacco",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1957-12-02T00:00:00",
@@ -134,6 +239,13 @@ test_caseOutput = {
             "locality": "I.A.S. - Pelotas.  Canal I.A.S. - S. Gon\u00e7alo, bra\u00e7o de liga\u00e7ao com o arroio Pe. Doutor"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Pedersen TM",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1951-02-17T00:00:00",
@@ -142,6 +254,13 @@ test_caseOutput = {
             "locality": "Estancia Santa Teresa. Dep. Mburucuya. Prov. Corrientes."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Armando T. Hunziker",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1946-11-26T00:00:00",
@@ -150,6 +269,13 @@ test_caseOutput = {
             "locality": "Las Palmas."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Antonio Krapovickas",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1946-11-26T00:00:00",
@@ -158,6 +284,13 @@ test_caseOutput = {
             "locality": "Las Palmas Zral. Uribure."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Jason R. Swallen",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1945-10-31T00:00:00",
@@ -166,6 +299,13 @@ test_caseOutput = {
             "locality": "Sao Goncaies, instituto Agronomico do Sul, Pelotas. Wet ground along canal to arroyo."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Rodriguez",
             "decimalLatitude": 0.0,
             "decimalLongitude": 0.0,
             "eventDate": "1912-06-23T00:00:00",
@@ -174,6 +314,13 @@ test_caseOutput = {
             "locality": "Quilmes"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Balansa B",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1875-11-14T00:00:00",
@@ -182,6 +329,13 @@ test_caseOutput = {
             "locality": "PL. du Paraguay., Bu\u00e9nos - aires, dans les marais."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Balansa B",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1875-11-14T00:00:00",
@@ -190,6 +344,13 @@ test_caseOutput = {
             "locality": "PL. du Paraguay., Bu\u00e9nos - aires, dans les marais."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Unknown",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": "1875-11-07T00:00:00",
@@ -198,6 +359,13 @@ test_caseOutput = {
             "locality": "Paseo de Julio, \u00e0 Buenos - Aires. *."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": -37.615321,
             "decimalLongitude": -57.423687,
             "eventDate": None,
@@ -206,6 +374,13 @@ test_caseOutput = {
             "locality": "Estancia \"Nahuel Ruca\", m\u00e1rgen de Laguna Nahuel Ruca"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -214,6 +389,13 @@ test_caseOutput = {
             "locality": "Conchitas"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -222,6 +404,13 @@ test_caseOutput = {
             "locality": ""
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -230,6 +419,13 @@ test_caseOutput = {
             "locality": "M\u00e9danos"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -238,6 +434,13 @@ test_caseOutput = {
             "locality": "Delta del Paran\u00e1, R\u00edo Capit\u00e1n y Paran\u00e1 de las Palmas"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "W.G. Herter",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -246,6 +449,13 @@ test_caseOutput = {
             "locality": ""
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Jos\u00e9 F.M. Valls|A. Pott|Hilda M. Longhi-Wagner",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -254,6 +464,13 @@ test_caseOutput = {
             "locality": "General Vargas, Estr. S. Pedro do Sul-Jaguari, 38 km apos S. Pedro-Varzea do rio Toropi, jun to a ponte de concreto de + 80 de extens\u00e3o."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -262,6 +479,13 @@ test_caseOutput = {
             "locality": "Avellaneda ?"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -270,6 +494,13 @@ test_caseOutput = {
             "locality": "Quilmes"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -278,6 +509,13 @@ test_caseOutput = {
             "locality": "Pranacito"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -286,6 +524,13 @@ test_caseOutput = {
             "locality": "Laguna San Vicente"
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -294,6 +539,13 @@ test_caseOutput = {
             "locality": "\"El Toro\", Rosas F.C.S."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "Balansa B",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
@@ -302,6 +554,13 @@ test_caseOutput = {
             "locality": "Monoique., Buenos-ayres, dans les marais."
         },
         {
+            "family": "Poaceae",
+            "phylum": "Tracheophyta",
+            "order": "Poales",
+            "genus": "Zizaniopsis",
+            "species": "Zizaniopsis bonariensis",
+            "class": "Liliopsida",
+            "recordedBy": "",
             "decimalLatitude": "",
             "decimalLongitude": "",
             "eventDate": None,
