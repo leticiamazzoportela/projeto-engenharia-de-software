@@ -24,3 +24,17 @@ Esta é responsável por transformar as issues do GitHub em tarefas de desenvolv
 Segue o link com instruções para a utilização da ferramenta: https://www.zenhub.com/
 
 Para utilizá-la, basta instalar a extensão no navegador e estar como colaborador do repositório.
+
+## Build do projeto
+
+O build é realizado utilizando o pacote pyinstall, o qual pode ser instalado da seguinte forma:
+
+```
+pip install pyinstaller
+```
+
+Para realizar o build apenas utilize o comando:
+
+```
+pyinstaller —onefile src/interface.py
+```
