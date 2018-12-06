@@ -16,3 +16,4 @@ selenium==3.14.1
 unidecode==1.0.22
 urllib3==1.23             # via requests, selenium
 xlsxwriter==1.1.2
+nose==3.4
