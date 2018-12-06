@@ -4,4 +4,4 @@ python:
 install:
   pip install -r requirements.txt
 test:
-  nosetests
+  pip install nose && nosetests
