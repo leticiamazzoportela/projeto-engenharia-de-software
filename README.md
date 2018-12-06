@@ -8,7 +8,7 @@ Será usado o processo do GitFlow, onde cada funcionalidade será implementada e
 
 Ao final de cada entrega, a branch de desenvolvimento será integrada à branch principal do repositório.
 
-### Estrutura do repositorio
+### Estrutura do repositório
 
 ```
 - src
