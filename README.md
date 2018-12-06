@@ -1,5 +1,7 @@
 # Implementação de uma Aplicação para Classificação de Macrófitas
 
+[![Build Status](https://travis-ci.org/leticiamazzoportela/projeto-engenharia-de-software.svg?branch=master)](https://travis-ci.org/leticiamazzoportela/projeto-engenharia-de-software)
+
 ## Uso do Repositório
 
 Será usado o processo do GitFlow, onde cada funcionalidade será implementada em uma branch separada e, ao término da funcionalidade, todas as branches serão integradas à branch de desenvolvimento.
