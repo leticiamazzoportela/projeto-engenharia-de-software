@@ -29,6 +29,28 @@ def read_gbif():
     return new_data
     
 
-new_data = read_gbif()
-with open('./data/saida_gbif_validado.json', 'w') as data_file:
-    data = json.dump(new_data, data_file)
+def read_spicieslink():
+    new_data = {}
+    data = []
+    with open('./data/specieslink.json') as json_specieslink:
+        data = json.load(json_specieslink)
+        for plant in data:
+            oc = []
+            for ocurrence in data[plant]:
+                if(ocurrence['pais'].lower() in countrys):
+                    oc.append(ocurrence)
+                elif(ocurrence['lat'] != "" and ocurrence['long'] != ""):
+                    if((float(ocurrence['lat'])<= lat[0] and float(ocurrence['lat']) >= lat[1]) and (float(ocurrence['long']) <= longt[0] and float(ocurrence['long']) >= longt[1])):
+                        oc.append(ocurrence)
+                else:
+                    print('não esta na ame. do sul')
+            new_data[plant] = oc
+    return new_data
+
+# gbif_data = read_gbif()
+# with open('./data/saida_gbif_validado.json', 'w') as data_file:
+#     data = json.dump(gbif_data, data_file)
+
+specieslink_data = read_spicieslink()
+with open('./data/specieslink_validade', 'w') as data_file:
+    data = json.dump(specieslink_data, data_file)
