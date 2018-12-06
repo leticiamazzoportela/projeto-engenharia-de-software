@@ -1,7 +1,8 @@
 requests
 bs4
-selenium
 lxml
 XlsxWriter
 unidecode
 pygbif
+python-Levenshtein
+python-dateutil

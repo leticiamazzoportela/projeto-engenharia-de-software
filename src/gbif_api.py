@@ -11,7 +11,8 @@ def getOccurrences(plantsName):
         'eventDate', 'country', 'stateProvince', 'locality']
 
     for plantName in plantsName:
-        config.l_plant["text"] = plantName
+        if (config and config.l_plant):
+            config.l_plant["text"] = plantName
         occurrences_plant = occurrences.search(
             scientificName=util.remove_author(plantName), continent='south_america')
         

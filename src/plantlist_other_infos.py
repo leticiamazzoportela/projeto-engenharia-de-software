@@ -3,6 +3,7 @@ import requests
 import json
 import util
 import re
+from config import config
 
 BASE_URL = "http://www.theplantlist.org/"
 
@@ -66,7 +67,8 @@ def crawl_all_species(species):
     page = None
     data = []
     for specie in species:
-        print(specie)
+        if (config and config.l_plant):
+            config.l_plant["text"] = specie
         if(last_search != specie):
             last_search = specie
             page = requests.get(

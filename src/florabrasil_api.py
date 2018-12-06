@@ -14,7 +14,8 @@ def getNames(species):
     lista_nomes = []
 
     for specie in species:
-        config.l_plant["text"] = specie
+        if config and config.l_plant:
+            config.l_plant["text"] = specie
         nomes = {}
 
         specie_name = specie.split(" ")

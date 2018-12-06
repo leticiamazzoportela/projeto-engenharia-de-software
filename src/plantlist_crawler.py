@@ -3,6 +3,7 @@ import requests
 import json
 import util
 import re
+from config import config
 
 BASE_URL = "http://www.theplantlist.org/"
 
@@ -64,7 +65,8 @@ def crawl_all_species(species):
     last_search = ""
     page = None
     for specie in species:
-        config.l_plant["text"] = specie["nome"]
+        if config and config.l_plant:
+            config.l_plant["text"] = specie["nome"]
         first_name = specie["nome"].split()[0]
         if(last_search != first_name):
             last_search = first_name

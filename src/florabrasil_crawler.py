@@ -3,6 +3,7 @@
 import requests
 import json
 import util
+from config import config
 
 FLORA_URL = "http://floradobrasil.jbrj.gov.br/reflora/listaBrasil/ConsultaPublicaUC/ResultadoDaConsultaCarregaTaxonGrupo.do?&idDadosListaBrasil="
 FLORA_OFICIAL_API = "http://servicos.jbrj.gov.br/flora/taxon/"
@@ -10,7 +11,8 @@ FLORA_OFICIAL_API = "http://servicos.jbrj.gov.br/flora/taxon/"
 def get_data(species):
     data = []
     for specie in species:
-        print(specie)
+        if (config and config.l_plant):
+            config.l_plant["text"] = specie
         name = util.remove_author(specie)
         r = requests.get(
             FLORA_OFICIAL_API + util.normalize(name))

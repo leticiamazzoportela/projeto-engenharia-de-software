@@ -19,7 +19,8 @@ def readInput():
 
 def saveSheet(species):
     # Create a workbook and add a worksheet.
-    workbook = xlsxwriter.Workbook('output.xlsx')
+    path = os.path.join(config.dirname, "plant_flora_valid_names.xlsx")
+    workbook = xlsxwriter.Workbook(path)
     worksheet = workbook.add_worksheet()
 
     col = 0
@@ -95,10 +96,8 @@ def saveSheet(species):
     workbook.close()
 
 
-def save_info_sheet():
+def save_info_sheet(flora_data, plant_data):
     # Create a workbook and add a worksheet.
-    flora_data = json.loads(open("data/floraData.json").read())
-    plant_data = json.loads(open("data/plantData.json").read())
     workbook = xlsxwriter.Workbook('info.xlsx')
 
     save_flora_sheet(flora_data, workbook)
@@ -180,8 +179,7 @@ def save_plant_sheet(species, workbook):
 
     # workbook.close()
 
-def save_notfound():
-    notfound = json.loads(open("data/notfound.json").read())
+def save_notfound(notfound):
     workbook = xlsxwriter.Workbook('notfound.xlsx')
     worksheet = workbook.add_worksheet()
 
@@ -190,15 +188,49 @@ def save_notfound():
     
     workbook.close()
 
-def save_sinonimos():
-    flora_data = json.loads(open("data/floraData.json").read())
-    plant_data = json.loads(open("data/plantData.json").read())
+def save_sinonimos(flora_data, plant_data):
     workbook = xlsxwriter.Workbook('info.xlsx')
 
     save_flora_sinonimos(flora_data, workbook)
     save_plant_sinonimos(plant_data, workbook)
 
     workbook.close()
+
+def save_occurrences(occurrences):
+    workbook = xlsxwriter.Workbook("ocorrencias.xlsx")
+    worksheet = workbook.add_worksheet()
+
+    title_format = workbook.add_format(properties={'font_color': 'red'})
+
+    worksheet.write(0, 0, "planta", title_format)
+    worksheet.write(0, 1, "Família", title_format)
+    worksheet.write(0, 2, "Filo", title_format)
+    worksheet.write(0, 3, "Ordem", title_format)
+    worksheet.write(0, 4, "Genero", title_format)
+    worksheet.write(0, 5, "especie", title_format)
+    worksheet.write(0, 6, "Classe", title_format)
+    worksheet.write(0, 7, "Coletor", title_format)
+    worksheet.write(0, 8, "Pais", title_format)
+    worksheet.write(0, 9, "Latitude", title_format)
+    worksheet.write(0, 10, "Longitude", title_format)
+
+    row = 1
+    for plant in occurrences:
+        for occurrence in occurrences[plant]:
+            worksheet.write(row, 0, plant)
+            worksheet.write(row, 1, occurrence["familia"])
+            worksheet.write(row, 2, occurrence["filo"])
+            worksheet.write(row, 3, occurrence["ordem"])
+            worksheet.write(row, 4, occurrence["genero"])
+            worksheet.write(row, 5, occurrence["especie"])
+            worksheet.write(row, 6, occurrence["classe"])
+            worksheet.write(row, 7, occurrence["coletor"])
+            worksheet.write(row, 8, occurrence["pais"])
+            worksheet.write(row, 9, occurrence["lat"])
+            worksheet.write(row, 10, occurrence["long"])
+            row += 1
+    workbook.close()
+
 
 if __name__ == "__main__":
     # saveSheet([
@@ -210,6 +242,6 @@ if __name__ == "__main__":
     #         "plantlist": "plant list"
     #     }
     # ])
-    # data = json.loads(open("data/floraData.json").read())
-    save_notfound()
+    data = json.loads(open("data/occurrences.json").read())
+    save_occurrences(data)
     # print(readInput())

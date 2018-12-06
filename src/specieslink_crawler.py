@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 from util import remove_author
+from config import config
 
 BASE_URL = "http://www.splink.org.br/mod_perl/searchHint?ts_genus="
 
@@ -21,7 +22,8 @@ def get_driver():
 def crawl_all_species(species):
     ocurrences = {}
     for specie in species:
-        config.l_plant["text"] = specie
+        if config and config.l_plant:
+            config.l_plant["text"] = specie
         ocurrences[specie] = get_all_occurrences(remove_author(specie))
     return ocurrences
 
