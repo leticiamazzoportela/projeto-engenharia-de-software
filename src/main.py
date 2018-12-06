@@ -11,6 +11,7 @@ from config import config
 from tkinter import messagebox
 import os
 import triagem
+import sys
 
 
 def execute():
@@ -57,10 +58,20 @@ def execute():
     config.l_acao["text"] = "Buscando ocorrencias no species link...."
     specieslink = specieslink_crawler.get_data(valid_names)
 
+    config.l_acao["text"] = "Validando ocorrencias...."
+    config.l_plant["text"] = ""
     specieslink = triagem.read_spicieslink(specieslink)
     gbif = triagem.read_gbif(specieslink)
 
     occurrences = util.check_occurrences(specieslink, gbif)
 
     # save occurences
+    config.l_acao["text"] = "salvando ocorrencias...."
+    config.l_plant["text"] = ""
+    csv_util.save_occurrences(occurrences)
+
+    messagebox.showinfo("Sucesso", "Todas as informações já foram coletadas")
+    config.l_acao["text"] = "Todas as ações finalizadas"
+    config.l_plant["text"] = ""
+    config.root.quit()
     

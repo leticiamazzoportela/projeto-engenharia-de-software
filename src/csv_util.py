@@ -98,7 +98,8 @@ def saveSheet(species):
 
 def save_info_sheet(flora_data, plant_data):
     # Create a workbook and add a worksheet.
-    workbook = xlsxwriter.Workbook('info.xlsx')
+    path = os.path.join(config.dirname, "info.xlsx")
+    workbook = xlsxwriter.Workbook(path)
 
     save_flora_sheet(flora_data, workbook)
     save_plant_sheet(plant_data, workbook)
@@ -180,7 +181,8 @@ def save_plant_sheet(species, workbook):
     # workbook.close()
 
 def save_notfound(notfound):
-    workbook = xlsxwriter.Workbook('notfound.xlsx')
+    path = os.path.join(config.dirname, "notfound.xlsx")
+    workbook = xlsxwriter.Workbook(path)
     worksheet = workbook.add_worksheet()
 
     for i in range(len(notfound)):
@@ -189,7 +191,8 @@ def save_notfound(notfound):
     workbook.close()
 
 def save_sinonimos(flora_data, plant_data):
-    workbook = xlsxwriter.Workbook('info.xlsx')
+    path = os.path.join(config.dirname, "info.xlsx")
+    workbook = xlsxwriter.Workbook(path)
 
     save_flora_sinonimos(flora_data, workbook)
     save_plant_sinonimos(plant_data, workbook)
@@ -197,7 +200,8 @@ def save_sinonimos(flora_data, plant_data):
     workbook.close()
 
 def save_occurrences(occurrences):
-    workbook = xlsxwriter.Workbook("ocorrencias.xlsx")
+    path = os.path.join(config.dirname, "ocorrencias.xlsx")
+    workbook = xlsxwriter.Workbook(path)
     worksheet = workbook.add_worksheet()
 
     title_format = workbook.add_format(properties={'font_color': 'red'})
@@ -243,5 +247,6 @@ if __name__ == "__main__":
     #     }
     # ])
     data = json.loads(open("data/occurrences.json").read())
+    config.dirname = "/home/igornfaustino/Documents/code/faculdade/6_periodo/eng2"
     save_occurrences(data)
     # print(readInput())

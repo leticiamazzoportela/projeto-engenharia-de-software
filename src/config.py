@@ -3,3 +3,4 @@ class config():
     filename = None
     l_acao = None
     l_plant = None
+    root = None

@@ -27,6 +27,7 @@ def getFolder():
     name = askdirectory()
     if (name):
         config.dirname = name
+        print(name)
 
 def raise_frame(frame):
     frame.tkraise()
@@ -39,6 +40,8 @@ def start(frame):
         messagebox.showerror("Selecione todos os arquivos", "por favor, selecione um arquivo de entrada e uma pasta para salvar as planilhas")
 
 root = Tk()
+
+config.root = root
 
 f1 = Frame(root)
 f2 = Frame(root)
