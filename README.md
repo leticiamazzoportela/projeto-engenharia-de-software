@@ -4,9 +4,7 @@
 
 ## Uso do Repositório
 
-Será usado o processo do GitFlow, onde cada funcionalidade será implementada em uma branch separada e, ao término da funcionalidade, todas as branches serão integradas à branch de desenvolvimento.
-
-Ao final de cada entrega, a branch de desenvolvimento será integrada à branch principal do repositório.
+Serão um total de 4 entregas. Dessa forma, a cada entrega será criada uma tag indicando a versão atualizada.
 
 ### Estrutura do repositório
 
