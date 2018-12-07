@@ -25,6 +25,20 @@ Segue o link com instruções para a utilização da ferramenta: https://www.zen
 
 Para utilizá-la, basta instalar a extensão no navegador e estar como colaborador do repositório.
 
+## Execução do projeto
+
+Para executar o projeto, instale o [python](https://www.python.org/) e execute o seguinte comando para instalar todas as dependencias necessarias para a execução do projeto.
+
+```bash
+pip install -r requirements.txt
+```
+
+Para executar o projeto utilize o comando
+
+``` bash
+python src/interface.py
+```
+
 ## Build do projeto
 
 O build é realizado utilizando o pacote pyinstall, o qual pode ser instalado da seguinte forma:
