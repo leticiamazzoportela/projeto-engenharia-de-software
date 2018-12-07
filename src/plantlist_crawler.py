@@ -37,7 +37,7 @@ def scrap_synonym(section_html, specie):
     firstLink = subtitle.find("a")
     if(firstLink.text == "accepted"):
         specie["status_plantlist"] = ""
-        specie["plantlist"] = title.select_one(".name").textz
+        specie["plantlist"] = title.select_one(".name").text
     elif (firstLink.text == "synonym"):
         accepted_name = subtitle.find("span", class_="name")
         if(accepted_name):
@@ -84,7 +84,7 @@ def getNames(species):
 if __name__ == "__main__":
     species = getNames([
         {
-            "nome": "Dicliptera ciliaris Juss."
+            "nome": "Justicia comata (L.) Lam."
         }
     ])
 

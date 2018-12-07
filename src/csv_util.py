@@ -90,8 +90,8 @@ def saveSheet(species):
             worksheet.write(row, 6, obs_plantlist)
             worksheet.write(row, 7, flora_plant)
             row += 1
-        except:
-            print(specie)
+        except Exception as e:
+            print(e)
 
     workbook.close()
 

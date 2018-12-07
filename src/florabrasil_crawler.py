@@ -43,12 +43,14 @@ def get_specie_data(id):
             if("distribuicaoGeograficaCerteza" in key):
                 try:
                     certeza += str(content[key]).split("(")[1].split(")")[0].split(", ")
-                except:
+                except Exception as e:
+                    # print(e)
                     pass
             if("distribuicaoGeograficaDuvida" in key):
                 try:
                     duvidas += str(content[key]).split("(")[1].split(")")[0].split(", ")
-                except:
+                except Exception as e:
+                    # print(e)
                     pass
         specie["confirmadas"] = certeza
         specie["duvidas"] = duvidas

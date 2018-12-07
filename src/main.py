@@ -2,6 +2,7 @@ import csv_util
 import florabrasil_api
 import plantlist_crawler
 import specieslink_crawler
+import florabrasil_crawler
 import plantlist_other_infos
 import florabrasil_api
 import gbif_api
@@ -32,6 +33,8 @@ def execute():
         exit(1)
 
     # save name
+    # print(plantlist_data)
+    # exit(0)
     csv_util.saveSheet(plantlist_data)
 
     # save not found
@@ -44,11 +47,10 @@ def execute():
 
     flora_names = util.get_list_flora_names(plantlist_data)
     config.l_acao["text"] = "Buscando informações extras florabrasil...."
-    f_info_data = florabrasil_api.getNames(flora_names)
+    f_info_data = florabrasil_crawler.get_data(flora_names)
 
     # save info
     csv_util.save_info_sheet(f_info_data, p_info_data)
-    csv_util.save_sinonimos(f_info_data, p_info_data)
 
     valid_names = util.get_list_of_valid_names(plantlist_data)
 
@@ -61,7 +63,7 @@ def execute():
     config.l_acao["text"] = "Validando ocorrencias...."
     config.l_plant["text"] = ""
     specieslink = triagem.read_spicieslink(specieslink)
-    gbif = triagem.read_gbif(specieslink)
+    gbif = triagem.read_gbif(gbif)
 
     occurrences = util.check_occurrences(specieslink, gbif)
 
